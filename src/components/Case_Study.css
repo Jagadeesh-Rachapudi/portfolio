@@ -1,0 +1,26 @@
+.into {
+  position: absolute;
+  width: 94px;
+  height: 230px;
+  left: 654.27px;
+  top: 24.34px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+}
+.titleofcasestudy {
+  position: absolute;
+  width: 259px;
+  height: 47px;
+  left: 571.51px;
+  top: 48.68px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.81);
+}
