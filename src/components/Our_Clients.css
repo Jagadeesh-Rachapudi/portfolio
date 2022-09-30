@@ -1,0 +1,79 @@
+.our {
+  position: absolute;
+  width: 1402px;
+  height: 428.39px;
+  left: 0.97px;
+  top: 5650.84px;
+}
+.ourinto {
+  position: absolute;
+  width: 200px;
+  height: 23px;
+  left: 652.32px;
+  top: 39.92px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+}
+.ourtitle {
+  position: absolute;
+  width: 336px;
+  height: 47px;
+  left: 570.54px;
+  top: 63.28px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.ourupper {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 146.04px;
+  position: absolute;
+  width: 1100.52px;
+  height: 78.47px;
+  left: 0px;
+  top: 202.51px;
+}
+.logo1 {
+  width: 25%;
+  position: absolute;
+  left: 25.99%;
+  right: 0%;
+  top: 13.52%;
+  bottom: 25.99%;
+}
+.logo2 {
+  width: 25%;
+  position: absolute;
+  left: 50.72%;
+  right: 0%;
+  top: 13.52%;
+  bottom: 1.25%;
+}
+.logo3 {
+  width: 25%;
+  position: absolute;
+  left: 75%;
+  right: 75.34%;
+  top: 13.52%;
+  bottom: 22.39%;
+}
+.logo4 {
+  position: absolute;
+  left: 100.5%;
+  right: 8.5%;
+  top: 13.52%;
+  bottom: 29.95%;
+  width: 25%;
+}

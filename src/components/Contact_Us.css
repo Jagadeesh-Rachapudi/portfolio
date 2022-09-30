@@ -1,0 +1,73 @@
+.Usbody {
+  position: absolute;
+  width: 1402px;
+  height: 1494.49px;
+  left: 0px;
+  top: 6067.54px;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 178, 46, 0.0754) 0%,
+    rgba(255, 255, 255, 0.1144) 100%
+  );
+}
+.UsUpper {
+  display: flex;
+}
+.doornumber {
+  width: 50%;
+}
+.Contactus {
+  position: absolute;
+  width: 173px;
+  height: 47px;
+  left: 147.99px;
+  top: 169.41px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.welcome {
+  position: absolute;
+  width: 479.99px;
+  height: 46px;
+  left: 147.99px;
+  top: 223.93px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.email {
+  width: 720.95px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.9178px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.5);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.address {
+  width: 353.64px;
+  height: 72px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.9178px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.5);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.usform {
+  width: 50%;
+}
