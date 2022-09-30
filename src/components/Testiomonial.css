@@ -5,7 +5,7 @@
   left: 0.97px;
   top: 5080.3px;
 }
-.testiinto {
+.testiintro {
   position: absolute;
   width: 108px;
   height: 23px;
@@ -17,4 +17,113 @@
   font-size: 15.5778px;
   line-height: 23px;
   color: #fcc028;
+}
+.testihedding {
+  position: absolute;
+  width: 282px;
+  height: 47px;
+  left: 595.8px;
+  top: 104.18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.img {
+  position: absolute;
+  width: 636.74px;
+  height: 198.62px;
+  left: -1.95px;
+  top: 196.67px;
+  background: #fff1ff;
+}
+.testicard {
+  position: absolute;
+  width: 769.15px;
+  height: 209.33px;
+  left: 465.39px;
+  top: 252.17px;
+  background: #ffffff;
+  box-shadow: 0px 3.89444px 19.4722px rgba(19, 23, 61, 0.1);
+  border-radius: 18.8995px;
+}
+.testiimage {
+  position: absolute;
+  width: 97.36px;
+  height: 97.36px;
+  left: 791.55px;
+  top: 209.33px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Ftesti%20image.png?alt=media&token=e2634f66-8774-4a43-a8c6-32ba1007d64d");
+}
+.testibigbuttons {
+  position: absolute;
+  width: 206.41px;
+  height: 87.63px;
+  left: 325.19px;
+  top: 356.34px;
+  background: #fcc028;
+  border-radius: 9.73611px;
+}
+.testiRectangles {
+  position: absolute;
+  width: 170.38px;
+  height: 155.76px;
+  left: 1134.26px;
+  top: 198.62px;
+}
+.testicardcontent {
+  position: absolute;
+  width: 508.22px;
+  height: 40px;
+  left: 600.46px;
+  top: 350.7px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.6306px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.peoplename {
+  position: absolute;
+  width: 68px;
+  height: 23px;
+  left: 815.5px;
+  top: 406.75px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #000000;
+}
+.up {
+  position: absolute;
+  left: 80.83%;
+  right: 100.83%;
+  top: 72%;
+  bottom: 29.17%;
+}
+.down {
+  position: absolute;
+  left: 36.83%;
+  right: 50.83%;
+  top: 48%;
+  bottom: 29.17%;
+}
+.testicomenttator {
+  position: absolute;
+  width: 300px;
+  height: 19px;
+  left: 740.21px;
+  top: 437.07px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.6569px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
 }
