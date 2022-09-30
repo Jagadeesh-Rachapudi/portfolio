@@ -2,6 +2,7 @@ import "./App.css";
 import About_Me from "./components/About_Me";
 import Case_Study from "./components/Case_Study";
 import Contact_Us from "./components/Contact_Us";
+import Footer from "./components/Footer";
 import Hedder from "./components/Hedder";
 import Navbar from "./components/Navbar";
 import Our_Clients from "./components/Our_Clients";
@@ -23,6 +24,7 @@ function App() {
       <Testimonial />
       <Our_Clients />
       <Contact_Us />
+      <Footer />
     </div>
   );
 }
