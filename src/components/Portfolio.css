@@ -1,0 +1,92 @@
+.portbody {
+  position: absolute;
+  width: 1402px;
+  height: 1109.92px;
+  left: 0.97px;
+  top: 3973.31px;
+}
+.portintro {
+  position: absolute;
+  width: 84px;
+  height: 23px;
+  left: 659.13px;
+  top: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+}
+.porttitle {
+  position: absolute;
+  width: 334px;
+  height: 47px;
+  left: 534.51px;
+  top: 23.37px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.viewall {
+  position: absolute;
+  width: 140px;
+  height: 22px;
+  left: 1100.18px;
+  top: 153.83px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  color: #fcc028;
+}
+.portfloor1 {
+  display: flex;
+}
+.porta1 {
+  width: 50%;
+  position: absolute;
+  width: 534.51px;
+  height: 393.34px;
+  left: 142.15px;
+  top: 184.99px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fporta1.png?alt=media&token=14d550be-6539-422d-b9f4-f9ab0975718a");
+  border-radius: 19.4722px;
+}
+.portb1 {
+  width: 50%;
+  position: absolute;
+  width: 534.51px;
+  height: 393.34px;
+  left: 725.34px;
+  top: 184.99px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fportb1.png?alt=media&token=35ff8380-174f-46a9-a95d-d215d3de0646");
+  border-radius: 19.4722px;
+}
+.portfloor2 {
+  display: flex;
+}
+.porta2 {
+  width: 50%;
+  position: absolute;
+  width: 534.51px;
+  height: 393.34px;
+  left: 142.15px;
+  top: 607.53px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fporta2.png?alt=media&token=d9a57d68-c916-4268-81dc-f1cd2d247ba5");
+  border-radius: 19.4722px;
+}
+.portb2 {
+  width: 50%;
+  position: absolute;
+  width: 534.51px;
+  height: 393.34px;
+  left: 725.34px;
+  top: 607.53px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fportb2.png?alt=media&token=d9d142d3-0514-4e8c-8a42-7ff57654497c");
+  border-radius: 19.4722px;
+}

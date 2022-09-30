@@ -20,9 +20,9 @@ function App() {
       <About_Me />
       <Services />
       <Case_Study/>
-      {/* <Portfolio/>
+      <Portfolio/>
       <Testimonial/>
-      <Our_Clients/>
+      {/* <Our_Clients/>
       <Contact_Us/>
       <Footer/> */}
     </div>
