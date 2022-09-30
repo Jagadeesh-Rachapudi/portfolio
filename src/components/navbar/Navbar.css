@@ -1,0 +1,54 @@
+.nav {
+  padding-left: 10%;
+}
+.buttoninnavend {
+  color: rgba(0, 0, 0, 0.81);
+  width: 150px;
+  height: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  flex-grow: 0;
+  flex: none;
+  display: inline-block;
+  list-style-type: none;
+  order: 0;
+  padding-right: 10%;
+}
+.buttoninnav {
+  color: rgba(0, 0, 0, 0.81);
+  width: 150px;
+  height: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  flex-grow: 0;
+  flex: none;
+  display: inline-block;
+  list-style-type: none;
+  order: 0;
+}
+.Button {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 29.2083px;
+  gap: 10px;
+  width: 115.42px;
+  color: white;
+  height: 41.47px;
+  background: #fcc028;
+  border-radius: 4.86806px;
+  flex: none;
+  order: 2;
+}
+.logo {
+  padding-right: 10%;
+  float: left;
+  list-style-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FLogo.png?alt=media&token=457ed81a-fd16-4c44-a957-49e0d2573477");
+}

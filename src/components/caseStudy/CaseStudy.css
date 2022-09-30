@@ -1,0 +1,282 @@
+.bodyofcasestudy {
+  position: absolute;
+  width: 1402px;
+  height: 1642.48px;
+  left: 0.97px;
+  top: 2330.82px;
+}
+.into {
+  position: absolute;
+  width: 94px;
+  height: 23px;
+  left: 654.27px;
+  top: 24.34px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+}
+.title23 {
+  position: absolute;
+  width: 259px;
+  height: 47px;
+  left: 571.51px;
+  top: 48.68px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.upper {
+  display: flex;
+}
+.a {
+  width: 50%;
+  position: absolute;
+  width: 543.28px;
+  height: 413.78px;
+  left: 97.36px;
+  top: 175.25px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%2011.png?alt=media&token=b3d1e1f8-351d-4f05-8b24-c608cee685b6");
+}
+.b {
+  width: 50%;
+}
+.number {
+  position: absolute;
+  width: 31px;
+  height: 47px;
+  left: 712.68px;
+  top: 236.59px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: #fcc028;
+}
+.sidetitle1 {
+  position: absolute;
+  width: 340px;
+  height: 35px;
+  left: 712.68px;
+  top: 295.98px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.3667px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.sidecontent1 {
+  position: absolute;
+  width: 570.54px;
+  height: 104px;
+  left: 712.68px;
+  top: 342.71px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.525px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.detailsbutton1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 29.2083px;
+  gap: 10px;
+  position: absolute;
+  width: 152.86px;
+  height: 48.68px;
+  left: 712.68px;
+  top: 489.73px;
+  border: 1px solid #fcc028;
+  border-radius: 9.73611px;
+}
+.content1 {
+  width: 51px;
+  height: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  color: #fcc028;
+  flex: none;
+  background: none;
+  border: none;
+  order: 0;
+  flex-grow: 0;
+}
+.upper2 {
+  display: flex;
+}
+.a2 {
+  width: 50%;
+}
+.count2 {
+  position: absolute;
+  width: 38px;
+  height: 47px;
+  left: 97.36px;
+  top: 716.58px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: #fcc028;
+}
+.headding2 {
+  position: absolute;
+  width: 440px;
+  height: 35px;
+  left: 97.36px;
+  top: 775.97px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.3667px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.sidecontent2 {
+  position: absolute;
+  width: 570.54px;
+  height: 104px;
+  left: 97.36px;
+  top: 822.7px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.525px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.detailsbutton2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 29.2083px;
+  gap: 10px;
+  position: absolute;
+  width: 152.86px;
+  height: 48.68px;
+  left: 97.36px;
+  top: 969.72px;
+  border: 1px solid #fcc028;
+  border-radius: 9.73611px;
+}
+.content2 {
+  width: 51px;
+  height: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  color: #fcc028;
+  background: none;
+  border: none;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.b2 {
+  width: 50%;
+  position: absolute;
+  width: 543.28px;
+  height: 413.78px;
+  left: 765.26px;
+  top: 615.32px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%2013.png?alt=media&token=59a9d9fd-431d-4dfe-9aab-46b11154f02b");
+}
+.upper3 {
+  display: flex;
+}
+.a3 {
+  position: absolute;
+  width: 543.28px;
+  height: 413.78px;
+  left: 97.36px;
+  top: 1055.39px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%2015.png?alt=media&token=5271e8a2-9458-42a9-a461-eb3109ee7bf1");
+}
+.number3 {
+  position: absolute;
+  width: 39px;
+  height: 47px;
+  left: 712.68px;
+  top: 1156.65px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: #fcc028;
+}
+.hedding3 {
+  position: absolute;
+  width: 271px;
+  height: 35px;
+  left: 712.68px;
+  top: 1216.04px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.3667px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.sidecontent3 {
+  position: absolute;
+  width: 570.54px;
+  height: 104px;
+  left: 712.68px;
+  top: 1262.77px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.525px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.detailsbutton3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 29.2083px;
+  gap: 10px;
+  position: absolute;
+  width: 152.86px;
+  height: 48.68px;
+  left: 712.68px;
+  top: 1409.79px;
+  border: 1px solid #fcc028;
+  border-radius: 9.73611px;
+}
+.content3 {
+  width: 51px;
+  height: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  color: #fcc028;
+  flex: none;
+  background: none;
+  border: none;
+  order: 0;
+  flex-grow: 0;
+}

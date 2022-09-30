@@ -1,0 +1,173 @@
+.parent {
+  display: flex;
+}
+.part1 {
+  width: 50%;
+}
+.greetings {
+  align-items: center;
+  color: #fcc028;
+}
+.name {
+  width: 1000.52px;
+  height: 81.78px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70.8037px;
+  line-height: 106px;
+  display: right;
+  align-items: left;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-bottom: 2%;
+}
+.role {
+  width: 293px;
+  height: 35px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.3667px;
+  line-height: 35px;
+  color: #207733;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.des {
+  width: 592.93px;
+  height: 104px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.525px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.5);
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 29.2083px;
+  gap: 10px;
+  color: white;
+  width: 152.86px;
+  height: 41.47px;
+  background: #fcc028;
+  border-radius: 4.86806px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.downloadcv {
+  width: 150px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.6042px;
+  line-height: 22px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.part2 {
+  width: 43%;
+  float: right;
+  display: flex;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fpic%201.png?alt=media&token=0c3d02d8-8449-4941-9ade-2c5e703b73a2");
+}
+.pic1 {
+  width: 50%;
+  width: 596.28px;
+  height: 557.88px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.container {
+  text-align: center;
+  display: flex;
+}
+.button1 {
+  width: 30%;
+  height: 40px;
+}
+.button2 {
+  font-family: "Poppins";
+  width: 30%;
+  height: 40px;
+}
+.picdownload {
+  width: 43%;
+  float: right;
+  display: flex;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fdownloadpic.png?alt=media&token=e405044f-cf49-44c8-8f8b-72f490e5959f");
+}
+.uppercard {
+  position: absolute;
+  width: 376.79px;
+  height: 122.68px;
+  left: 58.42px;
+  top: 600.72px;
+  background: #ffffff;
+  box-shadow: 0px 2.72153px 34.0191px rgba(19, 23, 61, 0.1);
+  border-radius: 6.80382px;
+}
+.Author {
+  position: absolute;
+  width: 92px;
+  height: 16px;
+  left: 72.8px;
+  top: 22.45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.8861px;
+  line-height: 16px;
+  color: #000000;
+}
+.Date {
+  position: absolute;
+  width: 78px;
+  height: 14px;
+  left: 73.48px;
+  top: 38.1px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.52535px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.comment {
+  position: absolute;
+  width: 260.19px;
+  height: 28px;
+  left: 20.45px;
+  top: 73.02px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.52535px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.imageofcommentator {
+  position: absolute;
+  width: 47.63px;
+  height: 47.63px;
+  left: 17.69px;
+  top: 13.61px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FEllipse%201.png?alt=media&token=77a4eabd-7def-4e92-abfd-50fd059bde11");
+}

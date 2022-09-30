@@ -1,30 +1,27 @@
 import "./App.css";
-import About_Me from "./components/About_Me";
-import Case_Study from "./components/Case_Study";
-import Contact_Us from "./components/Contact_Us";
-import Footer from "./components/Footer";
-import Hedder from "./components/Hedder";
-import Navbar from "./components/Navbar";
-import Our_Clients from "./components/Our_Clients";
-import Portfolio from "./components/Portfolio";
-import Profile_Card_In_Hedder_Section from "./components/Profile_Card_In_Hedder_Section";
-import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
-
+import Navbar from './components/navbar/Navbar'
+import AboutMe from './components/aboutMe/AboutMe'
+import CaseStudy from './components/caseStudy/CaseStudy'
+import ContactUs from './components/contactUs/ContactUs'
+import Footer from './components/footer/Footer'
+import Hedder from './components/hedder/Hedder'
+import OurClients from './components/ourClients/OurClients'
+import Portfolio from './components/portfolio/Portfolio'
+import Services from './components/services/Services'
+import Testimonial from './components/testimonials/Testimonial'
 function App() {
   return (
     <div className="body">
-      <Navbar />
-      {/* <Profile_Card_In_Hedder_Section /> */}
-      <Hedder />
-      <About_Me />
-      <Services />
-      <Case_Study />
-      <Portfolio />
-      <Testimonial />
-      <Our_Clients />
-      <Contact_Us />
-      <Footer />
+      <Navbar/>
+      <Hedder/>
+      <AboutMe/>
+      <Services/>
+      <CaseStudy/>
+      <Portfolio/>
+      <Testimonial/>
+      <OurClients/>
+      <ContactUs/>
+      <Footer/>
     </div>
   );
 }
