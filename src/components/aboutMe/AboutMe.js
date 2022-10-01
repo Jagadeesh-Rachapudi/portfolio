@@ -43,7 +43,7 @@ function AboutMe() {
           <button className="button button1me" color="white">
             Hire me
           </button>
-          <Button variant="light button2me">
+          <Button variant="light button2aboutme">
             Download CV
             <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fdownloadpic.png?alt=media&token=e405044f-cf49-44c8-8f8b-72f490e5959f"></img>
           </Button>
