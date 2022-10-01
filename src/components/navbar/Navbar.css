@@ -33,6 +33,7 @@
   color: rgba(0, 0, 0, 0.81);
   flex: none;
   order: 0;
+  text-decoration: none;
   flex-grow: 0;
 }
 .navbuttonb {

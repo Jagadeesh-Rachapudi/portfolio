@@ -200,6 +200,7 @@
   color: rgba(0, 0, 0, 0.5);
 }
 .E1 {
+  text-decoration: none;
   position: absolute;
   width: 309.99px;
   height: 46px;
@@ -220,6 +221,7 @@
   flex-grow: 0;
 }
 .E2 {
+  text-decoration: none;
   position: absolute;
   width: 309.99px;
   height: 46px;
@@ -240,6 +242,7 @@
   flex-grow: 0;
 }
 .E3 {
+  text-decoration: none;
   position: absolute;
   width: 309.99px;
   height: 46px;
@@ -260,6 +263,7 @@
   flex-grow: 0;
 }
 .E4 {
+  text-decoration: none;
   position: absolute;
   width: 309.99px;
   height: 46px;
@@ -280,6 +284,7 @@
   flex-grow: 0;
 }
 .E5 {
+  text-decoration: none;
   position: absolute;
   width: 309.99px;
   height: 46px;
@@ -301,6 +306,7 @@
 }
 .E6 {
   position: absolute;
+  text-decoration: none;
   width: 309.99px;
   height: 46px;
   left: 900.99px;
@@ -327,6 +333,7 @@
   top: 1250.93px;
   width: 247.3px;
   height: 68.15px;
+  text-decoration: none;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -343,6 +350,7 @@
   position: absolute;
   width: 309.99px;
   height: 46px;
+  text-decoration: none;
   left: 1150.99px;
   top: 1150.93px;
   width: 247.3px;
@@ -363,6 +371,7 @@
   position: absolute;
   width: 309.99px;
   height: 46px;
+  text-decoration: none;
   left: 1150.99px;
   top: 1200.93px;
   width: 247.3px;
@@ -381,6 +390,7 @@
 }
 .E10 {
   position: absolute;
+  text-decoration: none;
   width: 309.99px;
   height: 46px;
   left: 1150.99px;
@@ -405,6 +415,7 @@
   height: 46px;
   left: 1150.99px;
   top: 1300.93px;
+  text-decoration: none;
   width: 247.3px;
   height: 68.15px;
   font-family: "Poppins";

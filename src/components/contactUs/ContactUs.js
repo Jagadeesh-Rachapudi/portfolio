@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import Form from "react-bootstrap/Form";
 import React from "react";
@@ -60,17 +61,39 @@ function ContactUs() {
         is simply dummy text of the printing and typesetting industry. Lorem
         Ipsum
       </div>
-      <div className="E1">EXPLORE</div>
-      <div className="E2">SUPPORTS</div>
-      <div className="E3">ABOUT US</div>
-      <div className="E4">BLOG</div>
-      <div className="E5">LEGAL</div>
-      <div className="E6">TERMS OF USE</div>
-      <div className="E7">PRIVACY POLICY</div>
-      <div className="E8">SOCIALS</div>
-      <div className="E9">TWITTER</div>
-      <div className="E10">LINKEDIN</div>
-      <div className="E11">INSTAGRAM</div>
+      <a className="E1" href="#">
+        EXPLORE
+      </a>
+      <a className="E2" href="#">
+        SUPPORTS
+      </a>
+      <a className="E3" href="#">
+        ABOUT US
+      </a>
+      <a className="E4" href="#">
+        BLOG
+      </a>
+      <a className="E5" href="#">
+        LEGAL
+      </a>
+      <a className="E6" href="#">
+        TERMS OF USE
+      </a>
+      <a className="E7" href="#">
+        PRIVACY POLICY
+      </a>
+      <a className="E8" href="#">
+        SOCIALS
+      </a>
+      <a className="E9" href="#">
+        TWITTER
+      </a>
+      <a className="E10" href="#">
+        LINKEDIN
+      </a>
+      <a className="E11" href="#">
+        INSTAGRAM
+      </a>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Navbar.css";
 
@@ -5,13 +6,22 @@ function Navbar() {
   return (
     <div>
       <div className="nav">
-        {/* <div className="logo"></div> */}
         <div className="navbox">
-          <div className="A">ABOUT ME</div>
-          <div className="A">SERVICES</div>
-          <div className="A">PORTFOLIO</div>
-          <div className="A">TESTIMONIALS</div>
-          <div className="A">CONTACT ME</div>
+          <a className="A" href="#">
+            ABOUT ME
+          </a>
+          <a className="A" href="#">
+            SERVICES
+          </a>
+          <a className="A" href="#">
+            PORTFOLIO
+          </a>
+          <a className="A" href="#">
+            TESTIMONIALS
+          </a>
+          <a className="A" href="#">
+            CONTACT ME
+          </a>
         </div>
       </div>
       <div>
