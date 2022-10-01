@@ -3,16 +3,25 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="nav">
-      <ul className="horizontal-list">
-        <li className="logo"></li>
-        <li className="buttoninnav">ABOUT ME</li>
-        <li className="buttoninnav">SERVICES</li>
-        <li className="buttoninnav">PORTFOLIO</li>
-        <li className="buttoninnav">TESTIMONIALS</li>
-        <li className="buttoninnavend">CONTACT ME</li>
-        <button className="Button">Hire Me</button>
-      </ul>
+    <div>
+      <div className="nav">
+        {/* <div className="logo"></div> */}
+        <div className="navbox">
+          <div className="A">ABOUT ME</div>
+          <div className="A">SERVICES</div>
+          <div className="A">PORTFOLIO</div>
+          <div className="A">TESTIMONIALS</div>
+          <div className="A">CONTACT ME</div>
+        </div>
+      </div>
+      <div>
+        <button className="navbuttonb">Hire me</button>
+      </div>
+      <div>
+        <button className="navlogo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FNav%20logo.png?alt=media&token=7f231ee5-ca39-4577-b46b-33e73a6b95b1"></img>
+        </button>
+      </div>
     </div>
   );
 }

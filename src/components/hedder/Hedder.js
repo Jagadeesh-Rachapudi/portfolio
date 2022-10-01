@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import "./Hedder.css";
 function Hedder() {
   return (
-    <div className="parent">
+    <div className="hedderbody">
       <div className="part1">
         <div className="greetings">Hello, I am</div>
         <div className="name">CALEB NYONG</div>
@@ -19,25 +19,19 @@ function Hedder() {
           <button className="button button1" color="white">
             Hire me
           </button>
-          <Button variant="light button2">
+          <Button variant="light button2hedder">
             Download CV
             <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fdownloadpic.png?alt=media&token=e405044f-cf49-44c8-8f8b-72f490e5959f"></img>
           </Button>
         </div>
         <div className="card">
-          <Card border="light" style={{ width: "18rem" }} className="uppercard">
-            <Card.Body>
-              <Card.Text>
-                <div className="imageofcommentator"></div>
-                <div className="Author">Phanny - Nigeria</div>
-                <div className="Date">Sat 28 May 2022</div>
-                <div className="comment">
-                  In just a few short years, I built the brand to millions of
-                  social media followers and websites visitors.
-                </div>
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <div className="imageforcard"></div>
+        </div>
+        <div className="heddercardName">Phanny - Nigeria</div>
+        <div className="heddercarddate">Sat 28 May 2022</div>
+        <div className="heddercardcontent">
+          In just a few short years, I built the brand to millions of social
+          media followers and websites visitors.
         </div>
       </div>
       <div className="part2">
