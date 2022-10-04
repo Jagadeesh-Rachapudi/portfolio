@@ -1,28 +1,14 @@
-.nav {
+.navbarouter {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14.6042px 97.3611px;
-  gap: 236.59px;
-  position: absolute;
-  width: 1402px;
-  height: 70.68px;
-  left: 0px;
-  top: 0px;
 }
-.navbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 350px;
-  gap: 90.66px;
-  width: 500.99px;
-  height: 41.47px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+.navlogo {
+  padding-left: 5rem;
+  padding-top: 3rem;
+  padding-right: 10rem;
+}
+.navbuttons {
+  padding-top: 3rem;
+  padding-right: 10rem;
 }
 .A {
   font-family: "Poppins";
@@ -30,41 +16,23 @@
   font-weight: 500;
   font-size: 14.6042px;
   line-height: 22px;
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.81);
   flex: none;
   order: 0;
-  text-decoration: none;
   flex-grow: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
-.navbuttonb {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 29.2083px;
-  gap: 10px;
-  position: absolute;
-  width: 125.86px;
-  height: 53.55px;
-  left: 1350.84px;
-  top: 20.21px;
-  border: none;
+
+.Buttonbb {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: white;
-  background: #fcc028;
   border-radius: 4.86806px;
-}
-.navlogo {
-  width: 250px;
-  height: 90px;
-  font-family: "Imperial Script";
-  font-style: normal;
+  background-color: #fcc028;
   border: none;
-  background: none;
-  font-weight: 400;
-  font-size: 31.1556px;
-  line-height: 38px;
-  color: #000000;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
