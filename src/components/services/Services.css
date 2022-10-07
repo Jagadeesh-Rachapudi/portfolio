@@ -1,16 +1,5 @@
-.totlabody {
-  position: absolute;
-  width: 1402px;
-  height: 778.89px;
-  left: 0.97px;
-  top: 1551.94px;
-}
-.headdinng {
-  position: absolute;
-  width: 72px;
-  height: 23px;
-  left: 664.98px;
-  top: 24.34px;
+.servicesintro {
+  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -18,12 +7,8 @@
   line-height: 23px;
   color: #fcc028;
 }
-.title {
-  position: absolute;
-  width: 292px;
-  height: 47px;
-  left: 554.96px;
-  top: 48.68px;
+.shedding {
+  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -31,12 +16,8 @@
   line-height: 47px;
   color: rgba(0, 0, 0, 0.81);
 }
-.gooall {
-  position: absolute;
-  width: 140px;
-  height: 22px;
-  left: 1100.18px;
-  top: 99.31px;
+.sgetall {
+  padding-left: 84%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -44,57 +25,15 @@
   line-height: 22px;
   color: #fcc028;
 }
-.parentofservice {
+.scontainer {
+  padding-left: 6rem;
   display: flex;
 }
-.frame8 {
-  width: 30%;
-  position: absolute;
-  width: 358.29px;
-  height: 334.92px;
-  left: 144.09px;
-  top: 130.46px;
-  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%208.png?alt=media&token=1532a290-b44a-45d4-87eb-b5e471a0c5a7");
-  border-radius: 19.4722px;
+.spic1 {
+  width: 33%;
 }
-.frame9 {
-  width: 30%;
-  position: absolute;
-  width: 358.29px;
-  height: 334.92px;
-  left: 521.86px;
-  top: 130.46px;
-  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%209.png?alt=media&token=1b380bb2-7db4-4401-929d-0328c9b5f071");
-  border-radius: 19.4722px;
-}
-.frame10 {
-  width: 30%;
-  position: absolute;
-  width: 358.29px;
-  height: 334.92px;
-  left: 899.62px;
-  top: 130.46px;
-  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%2010.png?alt=media&token=87142e29-96d0-4c00-8969-f8bd1fbc9388");
-  border-radius: 19.4722px;
-}
-.parentofservice1 {
-  display: flex;
-}
-.frame81 {
-  width: 30%;
-}
-.frame91 {
-  width: 30%;
-}
-.frame101 {
-  width: 30%;
-}
-.heddingframe8 {
-  position: absolute;
-  width: 206px;
-  height: 29px;
-  left: 220.04px;
-  top: 475.12px;
+.spic1hedding {
+  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -102,12 +41,9 @@
   line-height: 29px;
   color: rgba(0, 0, 0, 0.81);
 }
-.contentframe8 {
-  position: absolute;
-  width: 285.27px;
-  height: 88px;
-  left: 181.09px;
-  top: 514.07px;
+.spic1content {
+  max-width: 400px;
+  padding-right: 5rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -116,12 +52,11 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
 }
-.heddingframe9 {
-  position: absolute;
-  width: 183px;
-  height: 29px;
-  left: 599.74px;
-  top: 475.12px;
+.spic2 {
+  width: 33%;
+}
+.spic2hedding {
+  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -129,12 +64,9 @@
   line-height: 29px;
   color: rgba(0, 0, 0, 0.81);
 }
-.contentframe9 {
-  position: absolute;
-  width: 285.27px;
-  height: 88px;
-  left: 553.98px;
-  top: 514.07px;
+.spic2content {
+  max-width: 400px;
+  padding-right: 5rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -143,12 +75,13 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
 }
-.heddingframe10 {
-  position: absolute;
-  width: 90px;
-  height: 29px;
-  left: 1033px;
-  top: 475.12px;
+.spic3 {
+  width: 33%;
+}
+.spic3hedding {
+  max-width: 400px;
+  padding-right: 5rem;
+  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -156,12 +89,9 @@
   line-height: 29px;
   color: rgba(0, 0, 0, 0.81);
 }
-.contentframe10 {
-  position: absolute;
-  width: 285.27px;
-  height: 88px;
-  left: 935.64px;
-  top: 513.09px;
+.spic3content {
+  max-width: 400px;
+  padding-right: 5rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;

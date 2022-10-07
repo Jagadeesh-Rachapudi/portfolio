@@ -1,16 +1,8 @@
 .testibody {
-  position: absolute;
-  width: 1402px;
-  height: 571.51px;
-  left: 0.97px;
-  top: 5080.3px;
+  padding: 5rem;
 }
 .testiintro {
-  position: absolute;
-  width: 108px;
-  height: 23px;
-  left: 647.45px;
-  top: 80.81px;
+  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -19,11 +11,8 @@
   color: #fcc028;
 }
 .testihedding {
-  position: absolute;
-  width: 282px;
-  height: 47px;
-  left: 595.8px;
-  top: 104.18px;
+  padding-top: 2rem;
+  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -31,54 +20,51 @@
   line-height: 47px;
   color: rgba(0, 0, 0, 0.81);
 }
-.img {
-  position: absolute;
-  width: 636.74px;
-  height: 198.62px;
-  left: -1.95px;
-  top: 196.67px;
+.testiroseboxcontainer {
+  padding-top: 5rem;
+  display: flex;
+}
+.testirosebox {
+  display: flex;
+  float: left;
+  margin-left: 0;
+  width: 35%;
+  padding: 80px;
+  padding-bottom: 10%;
+  margin: 0;
+  min-width: 35%;
   background: #fff1ff;
 }
+.testiRectangles {
+  padding-left: 25rem;
+}
 .testicard {
+  display: flex;
   position: absolute;
   width: 769.15px;
+  top: 5440px;
   height: 209.33px;
-  left: 465.39px;
-  top: 252.17px;
+  left: 365.39px;
   background: #ffffff;
-  box-shadow: 0px 3.89444px 19.4722px rgba(19, 23, 61, 0.1);
+  box-shadow: 0px 3.89444px 19.4722px rgba(19, 23, 61, 1);
   border-radius: 18.8995px;
 }
-.testiimage {
-  position: absolute;
-  width: 97.36px;
-  height: 97.36px;
-  left: 791.55px;
-  top: 209.33px;
-  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Ftesti%20image.png?alt=media&token=e2634f66-8774-4a43-a8c6-32ba1007d64d");
+.up {
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  max-height: 20%;
+  max-width: 20%;
+  height: 20%;
+  width: 10%;
 }
-.testibigbuttons {
-  position: absolute;
-  width: 206.41px;
-  height: 87.63px;
-  left: 325.19px;
-  top: 356.34px;
-  background: #fcc028;
-  border-radius: 9.73611px;
-}
-.testiRectangles {
-  position: absolute;
-  width: 170.38px;
-  height: 155.76px;
-  left: 1134.26px;
-  top: 198.62px;
-}
+
 .testicardcontent {
-  position: absolute;
-  width: 508.22px;
-  height: 40px;
-  left: 600.46px;
-  top: 350.7px;
+  width: 95%;
+  text-align: center;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  max-width: 800px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -87,12 +73,28 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
 }
-.peoplename {
+.down {
+  padding-top: 9rem;
+  padding-right: 1.5rem;
+  max-height: 20%;
+  max-width: 20%;
+  height: 20%;
+  width: 10%;
+}
+.testimage {
+  float: left;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
-  width: 68px;
-  height: 23px;
-  left: 815.5px;
-  top: 406.75px;
+  z-index: 1;
+  padding-right: 220px;
+  padding-left: 650px;
+}
+
+.peoplename {
+  display: flex;
+  padding-top: 1.75rem;
+  padding-left: 12rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -100,30 +102,17 @@
   line-height: 23px;
   color: #000000;
 }
-.up {
-  position: absolute;
-  left: 80.83%;
-  right: 100.83%;
-  top: 72%;
-  bottom: 29.17%;
-}
-.down {
-  position: absolute;
-  left: 36.83%;
-  right: 50.83%;
-  top: 48%;
-  bottom: 29.17%;
-}
-.testicomenttator {
-  position: absolute;
-  width: 300px;
-  height: 19px;
-  left: 740.21px;
-  top: 437.07px;
+.testirole {
+  padding-top: 0.99rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 12.6569px;
   line-height: 19px;
   color: rgba(0, 0, 0, 0.5);
+}
+.testibuttons {
+  position: absolute;
+  z-index: 1;
+  padding-left: 15rem;
 }

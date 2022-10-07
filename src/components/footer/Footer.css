@@ -1,9 +1,4 @@
 .foobody {
-  position: absolute;
-  width: 1402px;
-  height: 56.47px;
-  left: 0px;
-  top: 7563.01px;
-
+  padding: 1rem;
   background: #fcc028;
 }
