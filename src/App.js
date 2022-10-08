@@ -9,7 +9,8 @@ import OurClients from "./components/ourClients/OurClients";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import Testimonial from "./components/testimonials/Testimonial";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <div className="body">

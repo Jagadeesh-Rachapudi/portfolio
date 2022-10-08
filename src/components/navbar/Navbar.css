@@ -1,32 +1,19 @@
-.navbarouter {
+.navbody {
   display: flex;
 }
 .navlogo {
-  padding-left: 5rem;
-  padding-top: 3rem;
-  padding-right: 10rem;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  width: 5%;
 }
-.navbuttons {
-  padding-top: 3rem;
-  padding-right: 10rem;
+.navbuttoncontainer {
+  padding-top: 1rem;
 }
-.A {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14.6042px;
-  line-height: 22px;
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.81);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  padding-left: 2rem;
-  padding-right: 2rem;
+.navbarbalck {
+  padding-top: 1rem;
+  width: 80%;
 }
-
 .Buttonbb {
-  margin-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
@@ -36,3 +23,21 @@
   background-color: #fcc028;
   border: none;
 }
+/* @media screen and (max-width: 1000px) {
+  .Buttonbb {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: small;
+    color: white;
+    border-radius: 4.86806px;
+    background-color: #fcc028;
+    border: none;
+  }
+  .navlogo {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    width: 5%;
+  }
+} */

@@ -100,3 +100,49 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
 }
+/* @media screen and (max-width: 1000px) {
+  .scontainer {
+    display: block;
+    padding-left: 35%;
+    align-items: center;
+  }
+  .sgetall{
+    padding-left: 50%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .spic1 > img {
+    width: 100%;
+  }
+  .spic2 > img {
+    width: 100%;
+  }
+  .spic3 > img {
+    width: 100%;
+  }
+  .spic1hedding {
+    text-align: center;
+  }
+  .spic1content {
+    text-align: center;
+    width: 150%;
+    padding-bottom: 2rem;
+  }
+  .spic2hedding {
+    text-align: center;
+  }
+  .spic2content {
+    text-align: center;
+    width: 150%;
+    padding-bottom: 2rem;
+  }
+  .spic3hedding {
+    padding-left: 30%;
+    text-align: center;
+  }
+  .spic3content {
+    text-align: center;
+    width: 150%;
+    padding-bottom: 2rem;
+  }
+} */

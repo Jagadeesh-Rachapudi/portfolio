@@ -70,12 +70,10 @@
 .hedderpart2 {
   width: 50%;
 }
-.hedderprofilepic1 {
-  padding-left: 40rem;
-  height: 557.88px;
-  background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fpic%201.png?alt=media&token=0c3d02d8-8449-4941-9ade-2c5e703b73a2");
+.hedderprofilepic1 > img {
+  width: 100%;
 }
-.heddercardcontainer{
+.heddercardcontainer {
   padding-left: 1rem;
 }
 .heddercard {
@@ -124,3 +122,55 @@
   line-height: 14px;
   color: rgba(0, 0, 0, 0.7);
 }
+
+/* @media screen and (max-width: 1000px) {
+  .hedderbody {
+    display: block;
+  }
+  .hedderprofilepic1 {
+    width: 100%;
+  }
+  .hedderprofilepic1 > img {
+    width: 100%;
+  }
+  .hedderbutton {
+    font-size: small;
+  }
+  .hedderbuttondownload {
+    padding-left: 1rem;
+    width: 90%;
+  }
+  .hedderdownloadbuttonpic {
+    font-size: small;
+  }
+  .heddername {
+    width: 80%;
+  }
+  .hedderdes {
+    width: 80%;
+  }
+  .heddercardcontainer {
+    padding: 1rem;
+    width: 100%;
+  }
+  .heddercard {
+    width: 100%;
+    height: 100%;
+  }
+  .heddercardimage {
+    width: 10%;
+    padding-left: 7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .heddercardname {
+    padding-top: 1rem;
+    padding-left: 5rem;
+  }
+  .heddercarddate {
+    padding-left: 5rem;
+  }
+  .heddercardpart2 {
+    font-size: 12.52535px;
+  }
+} */

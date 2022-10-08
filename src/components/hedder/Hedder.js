@@ -29,7 +29,9 @@ function Hedder() {
           </div>
         </div>
         <div className="hedderpart2">
-          <div className="hedderprofilepic1"></div>
+          <div className="hedderprofilepic1">
+            <img  src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fpic%201.png?alt=media&token=0c3d02d8-8449-4941-9ade-2c5e703b73a2"></img>
+          </div>
         </div>
       </div>
       <div className="heddercardcontainer">

@@ -140,3 +140,14 @@
 .aboutdownloadcvpic {
   padding-left: 1rem;
 }
+/* @media screen and (max-width: 1000px) {
+  .aboutbody {
+    display: block;
+  }
+  .aboutpart1 > img {
+    width: 200%;
+  }
+  .aboputpart2 {
+    width: 100%;
+  }
+} */

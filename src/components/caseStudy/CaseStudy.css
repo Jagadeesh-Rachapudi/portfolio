@@ -68,7 +68,6 @@
   gap: 10px;
   background: none;
   border: none;
-  position: absolute;
   border: 1px solid #fcc028;
   border-radius: 9.73611px;
 }
@@ -124,3 +123,77 @@
   padding-top: 3rem;
   padding-left: 8rem;
 }
+/* @media screen and (max-width: 1000px) {
+  .csbuttoncontainer{
+    padding: 2rem;
+  }
+  .cscontainer1 {
+    display: block;
+    width: 100%;
+  }
+  .cspic1 > img {
+    width: 155%;
+    margin-left: 25%;
+  }
+  .cscontent1num {
+    text-align: center;
+  }
+  .cscontent1hedding {
+    text-align: center;
+  }
+  .cscontent1content {
+    text-align: center;
+  }
+  .cscontentbutton {
+    margin: auto;
+    align-items: center;
+  }
+  .cscontainer2 {
+    display: block;
+    width: 200%;
+  }
+
+  .cspic2 > img {
+    width: 75%;
+    margin-left: 25%;
+  }
+  .cscontent2num {
+    text-align: center;
+  }
+  .cscontent2hedding {
+    text-align: center;
+  }
+  .cscontent2content {
+    text-align: center;
+  }
+  .cscontentbutton {
+    margin: auto;
+    align-items: center;
+  }
+
+  .cscontainer3 {
+    display: block;
+    width: 200%;
+  }
+  .cspic3 > img {
+    width: 100%;
+    margin-left: 25%;
+  }
+  .cscontent3num {
+    width: 100%;
+    text-align: center;
+  }
+  .cscontent3hedding {
+    width: 100%;
+    text-align: center;
+  }
+  .cscontent3content {
+    padding-left: 25%;
+    width: 50%;
+    text-align: center;
+  }
+  .cscontentbutton {
+    margin: auto;
+    align-items: center;
+  }
+} */

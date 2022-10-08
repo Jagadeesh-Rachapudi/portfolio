@@ -30,7 +30,6 @@
   color: #fcc028;
 }
 .portfloor1 {
-  
   display: flex;
 }
 .porta1 {
@@ -54,3 +53,30 @@
   border-radius: 19.4722px;
   width: 50%;
 }
+/* @media screen and (max-width: 1000px) {
+  .portviewall {
+    padding-left: 80%;
+  }
+  .portfloor1 {
+    display: block;
+  }
+  .porta1 > img {
+    width: 200%;
+    padding: 2rem;
+  }
+  .porta2 > img {
+    width: 200%;
+    padding: 2rem;
+  }
+  .portb1 > img {
+    width: 200%;
+    padding: 2rem;
+  }
+  .portb2 > img {
+    width: 200%;
+    padding: 2rem;
+  }
+  .portfloor2 {
+    display: block;
+  }
+} */
