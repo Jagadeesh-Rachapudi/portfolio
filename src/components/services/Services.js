@@ -7,6 +7,8 @@ import Col from "react-bootstrap/Col";
 function Services() {
   return (
     <div>
+      <div className="sinto">SERVICES</div>
+      <div className="stitle">Check My Services</div>
       <Container>
         <Row className="justify-content-md-center">
           <Col class="d-flex flex-column">

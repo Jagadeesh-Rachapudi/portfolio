@@ -1,3 +1,22 @@
+.sinto {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+}
+.stitle {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.81);
+  padding-bottom: 2rem;
+}
 .shedding {
   font-family: "Poppins";
   font-style: normal;
