@@ -23,7 +23,7 @@
   background-color: #fcc028;
   border: none;
 }
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .Buttonbb {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -40,4 +40,4 @@
     padding-left: 2rem;
     width: 5%;
   }
-} */
+}

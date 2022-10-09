@@ -116,7 +116,7 @@
   z-index: 1;
   padding-left: 15rem;
 }
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .testirosebox {
     display: none;
   }
@@ -136,7 +136,7 @@
     position: relative;
     top: 0px;
     left: 30px;
-    background: burlywood;
+    background: ffffff;
     box-shadow: 0px 3.89444px 19.4722px rgba(19, 23, 61, 1);
     border-radius: 18.8995px;
   }
@@ -155,4 +155,4 @@
   .testibuttons {
     display: none;
   }
-} */
+}

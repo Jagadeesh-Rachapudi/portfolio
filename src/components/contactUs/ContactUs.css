@@ -311,3 +311,14 @@
   order: 3;
   flex-grow: 0;
 }
+@media screen and (max-width: 1000px){
+  .usformandinfo{
+    display: block;
+  }
+  .usinfo{
+    width: 100%;
+  }
+  .usform {
+    width: 100%;
+  }
+}

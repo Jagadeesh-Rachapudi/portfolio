@@ -29,3 +29,16 @@
   /* padding: 0px; */
   gap: 146.04px;
 }
+@media screen and (max-width: 1000px){
+  .stack {
+    padding-left: 20%;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px; */
+    gap: 146.04px;
+  }
+}
