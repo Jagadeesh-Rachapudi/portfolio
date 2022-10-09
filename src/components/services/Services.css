@@ -1,39 +1,4 @@
-.servicesintro {
-  text-align: center;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15.5778px;
-  line-height: 23px;
-  color: #fcc028;
-}
 .shedding {
-  text-align: center;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 31.1556px;
-  line-height: 47px;
-  color: rgba(0, 0, 0, 0.81);
-}
-.sgetall {
-  padding-left: 84%;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14.6042px;
-  line-height: 22px;
-  color: #fcc028;
-}
-.scontainer {
-  padding-left: 6rem;
-  display: flex;
-}
-.spic1 {
-  width: 33%;
-}
-.spic1hedding {
-  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -41,9 +6,7 @@
   line-height: 29px;
   color: rgba(0, 0, 0, 0.81);
 }
-.spic1content {
-  max-width: 400px;
-  padding-right: 5rem;
+.scontent {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -52,97 +15,25 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
 }
-.spic2 {
-  width: 33%;
-}
-.spic2hedding {
-  text-align: center;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 19.4722px;
-  line-height: 29px;
-  color: rgba(0, 0, 0, 0.81);
-}
-.spic2content {
-  max-width: 400px;
-  padding-right: 5rem;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14.6042px;
-  line-height: 22px;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.5);
-}
-.spic3 {
-  width: 33%;
-}
-.spic3hedding {
-  max-width: 400px;
-  padding-right: 5rem;
-  text-align: center;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 19.4722px;
-  line-height: 29px;
-  color: rgba(0, 0, 0, 0.81);
-}
-.spic3content {
-  max-width: 400px;
-  padding-right: 5rem;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14.6042px;
-  line-height: 22px;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.5);
-}
+
 @media screen and (max-width: 1000px) {
+  .totlabody {
+    padding: 5rem;
+  }
+  .servicesintro {
+    text-align: center;
+  }
+  .shedding {
+    text-align: center;
+  }
+  .sgetall {
+    float: right;
+  }
   .scontainer {
     display: block;
-    padding-left: 35%;
+  }
+  .spic1 {
+    width: 100%;
     align-items: center;
-  }
-  .sgetall{
-    padding-left: 50%;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-  }
-  .spic1 > img {
-    width: 100%;
-  }
-  .spic2 > img {
-    width: 100%;
-  }
-  .spic3 > img {
-    width: 100%;
-  }
-  .spic1hedding {
-    text-align: center;
-  }
-  .spic1content {
-    text-align: center;
-    width: 150%;
-    padding-bottom: 2rem;
-  }
-  .spic2hedding {
-    text-align: center;
-  }
-  .spic2content {
-    text-align: center;
-    width: 150%;
-    padding-bottom: 2rem;
-  }
-  .spic3hedding {
-    padding-left: 30%;
-    text-align: center;
-  }
-  .spic3content {
-    text-align: center;
-    width: 150%;
-    padding-bottom: 2rem;
   }
 }
