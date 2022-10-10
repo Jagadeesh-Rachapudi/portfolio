@@ -30,8 +30,11 @@
   gap: 146.04px;
 }
 @media screen and (max-width: 1000px){
+  .our{
+    padding-top: 20rem;
+  }
   .stack {
-    padding-left: 20%;
+    padding-left: 50%;
     padding-right: 10rem;
     padding-top: 5rem;
     display: flex;

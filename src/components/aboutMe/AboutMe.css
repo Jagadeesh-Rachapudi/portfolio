@@ -142,12 +142,50 @@
 }
 @media screen and (max-width: 1000px) {
   .aboutbody {
-    display: block;
+    padding: 0rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
-  .aboutpart1 > img {
-    width: 200%;
+  .aboutpart1 {
+    padding-left: 4rem;
+    align-items: center;
+    width: 100%;
   }
   .aboputpart2 {
     width: 100%;
+    display: flex;
+    padding: 0rem;
+    flex-direction: column;
+  }
+  .aboutinto {
+    width: 100%;
+    text-align: center;
+  }
+  .abouttitle {
+    width: 100%;
+    text-align: center;
+  }
+  .aboutcontent {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+  }
+  .aboutcontainer {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutsupport {
+    padding-left: 2rem;
+  }
+  .aboutbuttoncontainer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .aboutdownlaod {
+    padding-bottom: 5rem;
   }
 }

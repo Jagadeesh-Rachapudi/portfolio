@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import Button from "react-bootstrap/Button";
 import "./AboutMe.css";
 function AboutMe() {
   return (
@@ -52,7 +51,10 @@ function AboutMe() {
           <button className="abouthireme">Hire me</button>
           <button className="aboutdownlaod">
             Download CV
-            <img className="aboutdownloadcvpic" src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fdownloadpic.png?alt=media&token=e405044f-cf49-44c8-8f8b-72f490e5959f"></img>
+            <img
+              className="aboutdownloadcvpic"
+              src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fdownloadpic.png?alt=media&token=e405044f-cf49-44c8-8f8b-72f490e5959f"
+            ></img>
           </button>
         </div>
       </div>

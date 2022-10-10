@@ -18,6 +18,8 @@
   padding-bottom: 2rem;
 }
 .shedding {
+  padding: 1rem;
+  text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -26,6 +28,7 @@
   color: rgba(0, 0, 0, 0.81);
 }
 .scontent {
+  padding-bottom: 1rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -38,6 +41,12 @@
 @media screen and (max-width: 1000px) {
   .totlabody {
     padding: 5rem;
+  }
+  .aboutcontainer{
+    display: block;
+  }
+  .aboutprojects{
+    padding-left: 0rem;
   }
   .servicesintro {
     text-align: center;

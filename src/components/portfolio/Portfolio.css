@@ -54,29 +54,73 @@
   width: 50%;
 }
 @media screen and (max-width: 1000px) {
+  .portbody {
+    padding: 0rem;
+    display: block;
+    width: 100%;
+  }
+  .portintro {
+    text-align: center;
+    width: 100%;
+  }
+  .porttitle {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    font-size: 23px;
+  }
   .portviewall {
-    padding-left: 80%;
+    padding: 0rem;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 1rem;
   }
   .portfloor1 {
+    padding-bottom: 0rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .porta1 {
+    width: 100%;
     display: block;
   }
   .porta1 > img {
-    width: 200%;
-    padding: 2rem;
+    padding: 1rem;
+    width: 100%;
+    display: block;
   }
-  .porta2 > img {
-    width: 200%;
-    padding: 2rem;
+  .portb1 {
+    width: 100%;
+    display: block;
   }
   .portb1 > img {
-    width: 200%;
-    padding: 2rem;
-  }
-  .portb2 > img {
-    width: 200%;
-    padding: 2rem;
+    padding: 1rem;
+    width: 100%;
+    display: block;
   }
   .portfloor2 {
+    padding-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+  .porta2 {
+    width: 100%;
+    display: block;
+  }
+  .porta2 > img {
+    padding: 1rem;
+    width: 100%;
+    display: block;
+  }
+  .portb2 {
+    width: 100%;
+    display: block;
+  }
+  .portb2 > img {
+    padding: 1rem;
+    width: 100%;
     display: block;
   }
 }

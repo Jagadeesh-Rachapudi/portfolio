@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import Button from "react-bootstrap/Button";
 import "./CaseStudy.css";
 function CaseStudy() {
   return (

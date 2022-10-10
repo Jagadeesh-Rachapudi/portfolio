@@ -44,7 +44,6 @@
 .hedderbuttoncontainer {
   padding-top: 2rem;
   display: flex;
-  gap: 5rem;
 }
 .hedderbutton {
   width: 20%;
@@ -125,52 +124,76 @@
 
 @media screen and (max-width: 1000px) {
   .hedderbody {
-    display: block;
-  }
-  .hedderprofilepic1 {
+    padding: 0rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
-  .hedderprofilepic1 > img {
-    width: 200%;
+  .hedderpart1 {
+    padding: 0rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
-  .hedderbutton {
-    font-size: small;
-  }
-  .hedderbuttondownload {
-    padding-left: 1rem;
-    width: 90%;
-  }
-  .hedderdownloadbuttonpic {
-    font-size: small;
+  .hedderinto {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
   }
   .heddername {
-    width: 80%;
+    padding: 0rem;
+    width: 100%;
+    font-size: 47px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .hedderproffession {
+    padding: 0rem;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
   }
   .hedderdes {
-    width: 80%;
+    padding: 0rem;
+    width: 100%;
+    padding: 1rem;
+  }
+  .hedderbuttoncontainer {
+    display: flex;
+    padding: 0rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  .hedderbutton {
+    padding: rem;
+    width: 100%;
+  }
+  .hedderbuttondownload {
+    padding: 2rem;
+    width: 100%;
+  }
+  .hedderpart2 {
+    width: 100%;
+    display: flex;
+  }
+  .hedderprofilepic1 > img {
+    width: 100%;
+    padding-bottom: 2rem;
   }
   .heddercardcontainer {
-    padding: 1rem;
-    width: 100%;
+    width: 95%;
   }
   .heddercard {
     width: 100%;
-    height: 100%;
-  }
-  .heddercardimage {
-    width: 10%;
-    padding-left: 7rem;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
   }
   .heddercardname {
-    padding-top: 1rem;
     padding-left: 5rem;
   }
   .heddercarddate {
     padding-left: 5rem;
   }
   .heddercardpart2 {
-    font-size: 12.52535px;
+    font-size: 12px;
   }
 }

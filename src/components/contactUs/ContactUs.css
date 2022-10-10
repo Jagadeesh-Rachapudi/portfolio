@@ -311,14 +311,68 @@
   order: 3;
   flex-grow: 0;
 }
-@media screen and (max-width: 1000px){
-  .usformandinfo{
+@media screen and (max-width: 1000px) {
+  .Usbody {
+    display: block;
+    padding: 0rem;
+    width: 100%;
+  }
+  .usformandinfo {
     display: block;
   }
   .usinfo{
     width: 100%;
+    display: block;
   }
-  .usform {
+  .uscontactus{
+    text-align: center;
+    font-size: 30.0px;
+    padding-top: 0rem;
+    width: 100%;
+    padding-left: 0rem;
+  }
+  .uspromise{
+    padding: 1rem;
+    text-align: center;
+
+  }
+  .usmailc{
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .usaddrc{
+    padding-left: 0rem;
+    padding-top: 1rem;
+    width: 50rem;
+    font-size: small;
+  }
+  .uspc{
+    text-align: center;
+  }
+  .usform{
     width: 100%;
   }
+  .uslinks{
+    display: block;
+  }
+  .uslogocol{
+    width: 100%;
+  }
+  .uslogodes{
+    width: 100%;
+  }
+  .uscol1{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .uscol2{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .uscol3{
+    
+  }
 }
+

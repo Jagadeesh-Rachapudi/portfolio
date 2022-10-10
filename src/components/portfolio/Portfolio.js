@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+
 import "./Portfolio.css";
 function Portfolio() {
   return (
@@ -15,7 +16,7 @@ function Portfolio() {
           <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fportb1.png?alt=media&token=35ff8380-174f-46a9-a95d-d215d3de0646"></img>
         </div>
       </div>
-        <div className="portfloor2">
+      <div className="portfloor2">
         <div className="porta2">
           <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fporta2.png?alt=media&token=d9a57d68-c916-4268-81dc-f1cd2d247ba5"></img>
         </div>
