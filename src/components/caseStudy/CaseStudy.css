@@ -166,7 +166,7 @@
   }
   .csbuttoncontainer {
     padding-left: 35%;
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
   }
   .cscontainer2 {
     display: flex;
@@ -196,6 +196,7 @@
   }
   .cspic2 {
     padding: 0rem;
+    padding-top: 3rem;
     width: 100%;
   }
   .cspic2 > img {

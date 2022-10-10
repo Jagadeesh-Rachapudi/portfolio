@@ -20,7 +20,14 @@ function CaseStudy() {
             unchanged.
           </div>
           <div className="csbuttoncontainer">
-            <button className="cscontentbutton">Details</button>
+            <button
+              className="cscontentbutton"
+              onClick={() => {
+                "Details button cliked";
+              }}
+            >
+              Details
+            </button>
           </div>
         </div>
       </div>
@@ -37,7 +44,14 @@ function CaseStudy() {
             unchanged.
           </div>
           <div className="csbuttoncontainer">
-            <button className="cscontentbutton">Details</button>
+            <button
+              className="cscontentbutton"
+              onClick={() => {
+                "Deatils button cliked";
+              }}
+            >
+              Details
+            </button>
           </div>
         </div>
         <div className="cspic2">
@@ -58,7 +72,14 @@ function CaseStudy() {
             unchanged.
           </div>
           <div className="csbuttoncontainer">
-            <button className="cscontentbutton">Details</button>
+            <button
+              className="cscontentbutton"
+              onClick={() => {
+                "Download button cliked";
+              }}
+            >
+              Details
+            </button>
           </div>
         </div>
       </div>

@@ -7,7 +7,10 @@ function Portfolio() {
     <div className="portbody" id="portfolio">
       <div className="portintro">PORTFOLIO</div>
       <div className="porttitle">People Lie Work Don’t</div>
-      <div className="portviewall">Explore All Services</div>
+      <a className="portviewall" href="#Explore_All_Services">
+        Explore All Services
+      </a>
+
       <div className="portfloor1">
         <div className="porta1">
           <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Fporta1.png?alt=media&token=14d550be-6539-422d-b9f4-f9ab0975718a"></img>

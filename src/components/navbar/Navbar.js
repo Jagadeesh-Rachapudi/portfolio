@@ -28,7 +28,14 @@ function CollapsibleExample() {
         </Navbar>
       </div>
       <div className="navbuttoncontainer">
-        <button className="Buttonbb">Hire me</button>
+        <button
+          className="Buttonbb"
+          onClick={() => {
+            console.log("Hire_me button clicked");
+          }}
+        >
+          Hire me
+        </button>
       </div>
     </div>
   );

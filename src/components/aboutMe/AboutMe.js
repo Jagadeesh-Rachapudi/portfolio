@@ -48,8 +48,8 @@ function AboutMe() {
           </div>
         </div>
         <div className="aboutbuttoncontainer">
-          <button className="abouthireme">Hire me</button>
-          <button className="aboutdownlaod">
+          <button className="abouthireme" onClick={()=>{'Hire_me button cliked'}}>Hire me</button>
+          <button className="aboutdownlaod" onClick={()=>{'Download button cliked'}}>
             Download CV
             <img
               className="aboutdownloadcvpic"

@@ -20,7 +20,8 @@
   color: rgba(0, 0, 0, 0.81);
 }
 .portviewall {
-  padding-top: 3rem;
+  text-decoration: none;
+  padding-top: 0rem;
   padding-left: 63rem;
   font-family: "Poppins";
   font-style: normal;
@@ -56,6 +57,7 @@
 @media screen and (max-width: 1000px) {
   .portbody {
     padding: 0rem;
+    padding-top: 5rem;
     display: block;
     width: 100%;
   }
@@ -71,8 +73,7 @@
   }
   .portviewall {
     padding: 0rem;
-    width: 100%;
-    text-align: right;
+    padding-left: 60%;
     padding-bottom: 1rem;
   }
   .portfloor1 {

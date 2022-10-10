@@ -16,8 +16,20 @@ function Hedder() {
             visitors.
           </div>
           <div className="hedderbuttoncontainer">
-            <button className="hedderbutton">Hire me</button>
-            <button className="hedderbuttondownload">
+            <button
+              className="hedderbutton"
+              onClick={() => {
+                "hire_me button cliked";
+              }}
+            >
+              Hire me
+            </button>
+            <button
+              className="hedderbuttondownload"
+              onClick={() => {
+                "Download button cliked";
+              }}
+            >
               Download CV{" "}
               <img
                 className="hedderdownloadbuttonpic"
