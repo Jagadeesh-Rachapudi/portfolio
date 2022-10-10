@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
-import Form from "react-bootstrap/Form";
+import Form from "react-bootstrap/Form"
 import React from "react";
 import "./ContactUs.css";
 function ContactUs() {

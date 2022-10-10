@@ -320,59 +320,59 @@
   .usformandinfo {
     display: block;
   }
-  .usinfo{
+  .usinfo {
     width: 100%;
     display: block;
   }
-  .uscontactus{
+  .uscontactus {
     text-align: center;
-    font-size: 30.0px;
+    font-size: 30px;
     padding-top: 0rem;
     width: 100%;
     padding-left: 0rem;
   }
-  .uspromise{
+  .uspromise {
     padding: 1rem;
     text-align: center;
-
   }
-  .usmailc{
+  .usmailc {
     padding-top: 1rem;
     text-align: center;
   }
-  .usaddrc{
-    padding-left: 0rem;
+  .usaddrc {
+    padding-left: 1rem;
     padding-top: 1rem;
     width: 50rem;
     font-size: small;
   }
-  .uspc{
+  .us2 {
+    padding-right: 0rem;
+  }
+  .uspc {
     text-align: center;
   }
-  .usform{
+  .usform {
     width: 100%;
   }
-  .uslinks{
+  .uslinks {
     display: block;
   }
-  .uslogocol{
+  .uslogocol {
     width: 100%;
   }
-  .uslogodes{
+  .uslogodes {
     width: 100%;
   }
-  .uscol1{
-    width: 100%;
-    text-align: center;
-    padding-bottom: 2rem;
-  }
-  .uscol2{
+  .uscol1 {
     width: 100%;
     text-align: center;
     padding-bottom: 2rem;
   }
-  .uscol3{
-    
+  .uscol2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .uscol3 {
   }
 }
-
