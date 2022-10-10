@@ -5,7 +5,7 @@ import "./Testiomonial.css";
 
 function Testimonial() {
   return (
-    <div className="testibody">
+    <div className="testibody" id='tesimonials'>
       <div className="testiintro">TESTIMONIALS</div>
       <div className="testihedding">What People Says</div>
       <div className="testiroseboxcontainer">

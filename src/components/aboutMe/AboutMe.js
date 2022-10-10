@@ -3,7 +3,7 @@ import React from "react";
 import "./AboutMe.css";
 function AboutMe() {
   return (
-    <div className="aboutbody">
+    <div className="aboutbody" id="aboutme">
       <div className="aboutpart1">
         <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Ftotalpic.png?alt=media&token=296cb92e-a660-4fca-aab1-328b2cc386a0"></img>
       </div>

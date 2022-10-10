@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 function Services() {
   return (
-    <div>
+    <div id="services">
       <div className="sinto">SERVICES</div>
       <div className="stitle">Check My Services</div>
       <Container>

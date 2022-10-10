@@ -4,7 +4,7 @@ import React from "react";
 import "./Portfolio.css";
 function Portfolio() {
   return (
-    <div className="portbody">
+    <div className="portbody" id="portfolio">
       <div className="portintro">PORTFOLIO</div>
       <div className="porttitle">People Lie Work Don’t</div>
       <div className="portviewall">Explore All Services</div>
