@@ -60,7 +60,8 @@
   .scontainer {
     display: block;
   }
-  .spic1 {
+  .spic1 > img {
+    padding-right: 10rem;
     width: 100%;
     align-items: center;
   }

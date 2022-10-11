@@ -3,7 +3,7 @@ import React from "react";
 import "./Services.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Col from "react-bootstrap/Col"
 function Services() {
   return (
     <div id="services">
@@ -11,7 +11,7 @@ function Services() {
       <div className="stitle">Check My Services</div>
       <Container>
         <Row className="justify-content-md-center">
-          <Col class="d-flex flex-column">
+          <Col class=" spic1 d-flex flex-column">
             <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%208.png?alt=media&token=1532a290-b44a-45d4-87eb-b5e471a0c5a7" />
             <div className="shedding">Landing page design</div>
             <div className="scontent">
