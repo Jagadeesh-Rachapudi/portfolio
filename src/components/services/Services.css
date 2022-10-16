@@ -40,19 +40,22 @@
   color: rgba(0, 0, 0, 0.81);
 }
 .scontent {
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
-  width: 100%;
+  text-align: center;
+  margin-right: 3rem;
+
+  width: 90%;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 501;
   font-size: 14.6042px;
   line-height: 22px;
-  text-align: center;
+
   color: rgba(0, 0, 0, 0.5);
 }
-.threepics{
+.threepics {
   display: flex;
+  gap: 0rem;
   justify-content: center;
 }
 .spic1 > img {
@@ -64,6 +67,14 @@
 .spic3 > img {
   width: 100%;
 }
+
+@media screen and (max-width: 576px) {
+  .threepics {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .sbody {
     width: 100%;
