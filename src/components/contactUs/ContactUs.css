@@ -1,131 +1,191 @@
 .Usbody {
-  padding: 5rem;
+  padding: 0rem;
   background: linear-gradient(
     180deg,
     rgba(236, 178, 46, 0.0754) 0%,
     rgba(255, 255, 255, 0.1144) 100%
   );
 }
-.usformandinfo {
-  display: flex;
-}
-.usinfo {
-  width: 50%;
-}
 .uscontactus {
-  padding-top: 3rem;
+  padding-top: 10.5rem;
   padding-left: 5rem;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 31.1556px;
   line-height: 47px;
   color: rgba(0, 0, 0, 0.81);
 }
 .uspromise {
-  padding-top: 1rem;
+  padding-top: 0.7rem;
   padding-left: 5rem;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 401;
   font-size: 15.5778px;
   line-height: 23px;
   color: rgba(0, 0, 0, 0.5);
 }
 .usmailc {
-  padding-top: 5rem;
-  padding-left: 1rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
 }
-.usaddrc {
-  padding-top: 1rem;
-  padding-left: 1rem;
-}
-.uspc {
-  padding-top: 1rem;
-  padding-left: 1rem;
+.mailid {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 401;
+  font-size: 23.9178px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .us1 {
-  padding-right: 2rem;
+  padding-right: 2.5rem;
+}
+
+.usaddrc {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
 }
 .us2 {
-  padding-right: 2rem;
+  height: 50%;
+  padding-right: 2.5rem;
+}
+.addrid {
+  width: 70%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 401;
+  font-size: 23.9178px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.uspc {
+  display: flex;
+  flex-direction: row;
 }
 .us3 {
-  padding-right: 2rem;
+  padding-right: 2.5rem;
 }
-.usform {
-  width: 50%;
+.phonenum {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 401;
+  font-size: 23.9178px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .formcontainer {
-  padding: 5rem;
+  padding: 4rem;
+  padding-right: 0rem;
+  padding-top: 5.75rem;
 }
 #formname {
-  padding: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4722px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1.87rem;
+  width: 110%;
   background: #ffffff;
   border: 1.94722px solid rgba(0, 0, 0, 0.5);
   border-radius: 9.73611px;
 }
 #formmail {
-  padding: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4722px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1.87rem;
+  width: 110%;
   background: #ffffff;
   border: 1.94722px solid rgba(0, 0, 0, 0.5);
   border-radius: 9.73611px;
 }
 #formweb {
-  padding: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4722px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1.87rem;
+  width: 110%;
   background: #ffffff;
   border: 1.94722px solid rgba(0, 0, 0, 0.5);
   border-radius: 9.73611px;
 }
 #formmsg {
-  padding: 3rem 3rem 6rem 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4722px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 3rem 0rem 15.25rem 5.5rem;
+  padding-left: 1.87rem;
+  width: 110%;
   background: #ffffff;
   border: 1.94722px solid rgba(0, 0, 0, 0.5);
   border-radius: 9.73611px;
 }
 .formbuttoncontainer {
-  padding: 2rem 2rem 2rem 0rem;
+  padding-top: 1.87rem;
 }
 .formbutton {
+  padding: 0rem;
   color: none;
   border: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 29.2083px;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  padding-top: 0.87rem;
+  padding-bottom: 0.87rem;
   gap: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  color: #ffffff;
   background: #fcc028;
   border-radius: 4.86806px;
 }
-.uslinks {
-  display: flex;
-}
-.uslogocol {
-  padding-left: 3rem;
-  width: 25%;
+
+.Footer {
+  padding-top: 16rem;
+  padding-bottom: 12rem;
 }
 .uslogodes {
   padding: 1rem 1rem 1rem 0rem;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 501;
   font-size: 11.6833px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.5);
 }
-.uscol1 {
+.uscol {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 25%;
+  flex-direction: column;
+  text-align: center;
 }
 .E1 {
+  padding-top: 0rem;
   padding-bottom: 0.5rem;
   text-decoration: none;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -137,10 +197,11 @@
 }
 .E2 {
   padding: 0.5rem;
+  padding-top: 1.45rem;
   text-decoration: none;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -152,10 +213,11 @@
 }
 .E3 {
   padding: 0.25rem;
+  padding-top: 1.45rem;
   text-decoration: none;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -166,10 +228,11 @@
 }
 .E4 {
   padding: 0.25rem;
+  padding-top: 1.45rem;
   font-family: "Poppins";
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -179,18 +242,13 @@
   order: 3;
   flex-grow: 0;
 }
-.uscol2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 25%;
-}
+
 .E5 {
   padding-bottom: 1rem;
   text-decoration: none;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -202,10 +260,11 @@
 }
 .E6 {
   padding: 0.25rem;
+  padding-top: 1.45rem;
   font-family: "Poppins";
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -217,10 +276,11 @@
 }
 .E7 {
   padding: 0.25rem;
+  padding-top: 1.45rem;
   font-family: "Poppins";
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -232,10 +292,11 @@
 }
 .E4 {
   padding: 0.25rem;
+  padding-top: 1.45rem;
   font-family: "Poppins";
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -245,18 +306,13 @@
   order: 3;
   flex-grow: 0;
 }
-.uscol3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 25%;
-}
+
 .E8 {
   padding-bottom: 1rem;
   text-decoration: none;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -268,10 +324,11 @@
 }
 .E9 {
   padding: 0.25rem;
+  padding-top: 1.45rem;
   font-family: "Poppins";
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -283,10 +340,11 @@
 }
 .E10 {
   padding: 0.25rem;
+  padding-top: 1.45rem;
   font-family: "Poppins";
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -298,10 +356,11 @@
 }
 .E11 {
   padding: 0.25rem;
+  padding-top: 1.45rem;
   font-family: "Poppins";
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   display: flex;
@@ -311,68 +370,81 @@
   order: 3;
   flex-grow: 0;
 }
+.uslinks {
+  display: none;
+}
 @media screen and (max-width: 1000px) {
-  .Usbody {
-    display: block;
-    padding: 0rem;
-    width: 100%;
-  }
-  .usformandinfo {
-    display: block;
-  }
-  .usinfo {
-    width: 100%;
-    display: block;
-  }
   .uscontactus {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 0rem;
+    padding-top: 5rem;
+    display: flex;
     width: 100%;
-    padding-left: 0rem;
+    text-align: center;
   }
   .uspromise {
-    padding: 1rem;
+    width: 100%;
+    padding-left: 0rem;
     text-align: center;
+    padding-bottom: 2rem;
   }
-  .usmailc {
-    padding-top: 1rem;
+  .mailid {
+    font-size: 19.9178px;
+  }
+  .addrid {
+    font-size: 19.9178px;
+  }
+  .phonenum {
     text-align: center;
+    font-size: 19.9178px;
   }
-  .usaddrc {
-    padding-left: 1rem;
-    padding-top: 1rem;
-    width: 50rem;
-    font-size: small;
+  .us1 {
+    padding-right: 1rem;
   }
   .us2 {
-    padding-right: 0rem;
+    padding-right: 1rem;
   }
-  .uspc {
+  .us3 {
+    padding-right: 1rem;
+  }
+  .formcontainer {
+    padding-left: 0rem;
+  }
+  #formname {
+    width: 100%;
+  }
+  #formmail {
+    width: 100%;
+  }
+  #formweb {
+    width: 100%;
+  }
+  #formmsg {
+    width: 100%;
+  }
+  .formbuttoncontainer {
+    padding-left: 27%;
+  }
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .logocontent {
+    display: flex;
+    flex-direction: row;
+  }
+  .uslogo {
+    width: 25%;
+    height: 25%;
+    padding-top: 1.5rem;
+  }
+  .logocontent {
     text-align: center;
   }
-  .usform {
-    width: 100%;
-  }
-  .uslinks {
-    display: block;
-  }
-  .uslogocol {
-    width: 100%;
-  }
-  .uslogodes {
-    width: 100%;
-  }
-  .uscol1 {
-    width: 100%;
-    text-align: center;
+  .uscol {
     padding-bottom: 2rem;
   }
-  .uscol2 {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 2rem;
-  }
-  .uscol3 {
+  .links1 {
+    display: none;
   }
 }

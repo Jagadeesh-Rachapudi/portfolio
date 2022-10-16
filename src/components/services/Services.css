@@ -1,68 +1,81 @@
+.sbody {
+  padding-top: 4rem;
+}
 .sinto {
   text-align: center;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 15.5778px;
   line-height: 23px;
   color: #fcc028;
 }
 .stitle {
   text-align: center;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 31.1556px;
   line-height: 47px;
   color: rgba(0, 0, 0, 0.81);
-  padding-bottom: 2rem;
+}
+.sgetall {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 501;
+  font-size: 14.6042px;
+  line-height: 22px;
+  padding-left: 78%;
+  color: #fcc028;
 }
 .shedding {
   padding: 1rem;
   text-align: center;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   color: rgba(0, 0, 0, 0.81);
 }
 .scontent {
-  padding-bottom: 1rem;
-  font-family: "Poppins";
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 401;
   font-size: 14.6042px;
   line-height: 22px;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
 }
-
-@media screen and (max-width: 1000px) {
-  .totlabody {
-    padding: 5rem;
+.threepics {
+  padding: 5.25rem;
+  padding-top: 0.25rem;
+}
+@media screen and (max-width: 576px) {
+  .sbody {
+    width: 100%;
+    padding: 0rem;
   }
-  .aboutcontainer{
-    display: block;
-  }
-  .aboutprojects{
-    padding-left: 0rem;
-  }
-  .servicesintro {
+  .sinto {
+    width: 100%;
     text-align: center;
+    padding: 0rem;
   }
-  .shedding {
+  .stitle {
+    width: 100%;
     text-align: center;
+    padding: 0rem;
+  }
+  .scontent {
+    padding-bottom: 2rem;
   }
   .sgetall {
-    float: right;
-  }
-  .scontainer {
-    display: block;
-  }
-  .spic1 > img {
-    padding-right: 10rem;
+    white-space: nowrap;
     width: 100%;
-    align-items: center;
+    text-align: center;
+    padding: 0rem;
   }
 }

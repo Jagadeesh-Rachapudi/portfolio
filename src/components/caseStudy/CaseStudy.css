@@ -1,8 +1,8 @@
 .csinto {
-  padding-top: 5rem;
+  padding-top: 11.75rem;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 15.5778px;
   line-height: 23px;
   text-align: center;
@@ -11,28 +11,31 @@
 .cstitle {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 31.1556px;
   line-height: 47px;
   text-align: center;
   color: rgba(0, 0, 0, 0.81);
 }
-.cscontainer1 {
-  display: flex;
+.csrow1 {
+  padding-top: 3.75rem;
 }
-.cspic1 {
-  padding-top: 3rem;
-  padding-left: 5rem;
-  width: 50%;
+.csrow2 {
+  padding-top: 2.5rem;
 }
-.cscontent1 {
-  padding-top: 3rem;
-  padding-left: 7.58rem;
+.csrow3 {
+  padding-top: 1.5rem;
 }
+.c1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .cscontent1num {
+  padding-top: 5rem;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 31.1556px;
   line-height: 47px;
   color: #fcc028;
@@ -40,17 +43,19 @@
 .cscontent1hedding {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  padding-left: 0.25rem;
+  font-weight: 501;
   font-size: 23.3667px;
   line-height: 35px;
+  padding-bottom: 1rem;
   color: rgba(0, 0, 0, 0.81);
 }
 .cscontent1content {
-  width: 80%;
+  width: 90%;
   max-width: 1000px;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 17.525px;
   line-height: 26px;
   color: rgba(0, 0, 0, 0.5);
@@ -64,163 +69,138 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 29.2083px;
+
+  padding: 10px 50px;
   gap: 10px;
   background: none;
   border: none;
+  color: #fcc028;
   border: 1px solid #fcc028;
   border-radius: 9.73611px;
 }
-.cscontainer2 {
-  padding-top: 5rem;
-  display: flex;
-}
-.cscontent2 {
-  width: 50%;
-  padding-top: 3rem;
-  padding-left: 5rem;
-}
+
 .cscontent2num {
+  padding-top: 6rem;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 31.1556px;
   line-height: 47px;
   color: #fcc028;
 }
 .cscontent2hedding {
+  padding-top: 1rem;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 23.3667px;
   line-height: 35px;
   color: rgba(0, 0, 0, 0.81);
 }
 .cscontent2content {
-  width: 80%;
+  padding-top: 1rem;
+  width: 90%;
   max-width: 1000px;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 17.525px;
   line-height: 26px;
   color: rgba(0, 0, 0, 0.5);
 }
-.cspic2 {
-  width: 50%;
+
+.cscontent3num {
+  padding-top: 6rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 501;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: #fcc028;
 }
-.cscontainer3 {
-  display: flex;
-  padding-top: 5rem;
+.cscontent3hedding {
+  padding-top: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 501;
+  font-size: 23.3667px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.81);
 }
-.cspic3 {
-  padding-top: 3rem;
-  padding-left: 5rem;
-  width: 50%;
+.cscontent3content {
+  padding-top: 1rem;
+  width: 90%;
+  max-width: 1000px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 501;
+  font-size: 17.525px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.5);
 }
-.cscontent3 {
-  width: 80%;
-  padding-top: 3rem;
-  padding-left: 8rem;
-}
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 576px) {
   .bodyofcasestudy {
-    padding: 0rem;
-    padding-top: 5rem;
+    padding-bottom: 2rem;
+    width: 100%;
   }
   .csinto {
-    padding: 0rem;
+    width: 100%;
+    text-align: center;
   }
   .cstitle {
-    padding: 0rem;
+    width: 100%;
+    text-align: center;
   }
-  .cscontainer1 {
+  .csrow1 {
     display: flex;
-    flex-direction: column;
-  }
-  .cspic1 {
-    padding: 0rem;
-    width: 100%;
-  }
-  .cspic1 > img {
-    padding: 1rem;
-    width: 100%;
-  }
-  .cscontent1 {
-    padding: 0rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .cscontent1num {
+    padding-top: 3rem;
     width: 100%;
     text-align: center;
   }
   .cscontent1hedding {
     width: 100%;
     text-align: center;
+    padding: 0rem 0.25rem 0rem 0.25rem;
   }
   .cscontent1content {
+    padding: 1rem;
     width: 100%;
     text-align: center;
   }
   .csbuttoncontainer {
-    padding-left: 35%;
-    padding-bottom: 0rem;
-  }
-  .cscontainer2 {
     display: flex;
-    flex-direction: column;
+    margin-left: 30%;
+    padding-bottom: 2rem;
+  }
+  .pic1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     width: 100%;
   }
-  .cscontent2 {
-    padding: 0rem;
+  .csrow2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
   .cscontent2num {
-    padding: 0rem;
     text-align: center;
     width: 100%;
   }
   .cscontent2hedding {
-    width: 100%;
-    padding: 0rem;
     text-align: center;
+    width: 100%;
   }
   .cscontent2content {
+    padding: 1rem;
     width: 100%;
-    padding: 0rem;
     text-align: center;
   }
-  .cspic2 {
-    padding: 0rem;
-    padding-top: 3rem;
-    width: 100%;
-  }
-  .cspic2 > img {
-    padding: 1rem;
-    width: 100%;
-  }
-  .cscontainer3 {
+  .csrow3 {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .cspic3 {
-    padding: 0rem;
-    width: 100%;
-  }
-  .cspic3 > img {
-    width: 100%;
-    padding: 1rem;
-  }
-  .cscontent3 {
-    padding: 0rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: column-reverse;
   }
   .cscontent3num {
     width: 100%;

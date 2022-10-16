@@ -1,49 +1,87 @@
 .navbody {
   display: flex;
+  flex-direction: row;
 }
-.navlogo {
-  padding-top: 2.5rem;
-  padding-left: 4rem;
+.navlogoleft {
+  padding-top: 1.25rem;
+  padding-left: 0rem;
   width: 5%;
 }
 .navbuttoncontainer {
   padding-top: 1rem;
 }
 .navbarbalck {
-  padding-top: 2.25rem;
-  width: 80%;
+  padding-top: 0.35rem;
+  width: 78%;
+}
+.aboutmelink {
+  padding-right: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000px;
+  font-size: 15px;
+}
+.serviceslink {
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000px;
+  font-size: 15px;
+}
+.portfoliolink {
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000px;
+  font-size: 15px;
+}
+.testilink {
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000px;
+  font-size: 15px;
+}
+.contactlink {
+  padding-left: 0rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000px;
+  font-size: 15px;
+}
+.navbuttonouterContainer {
+  padding-left: 4rem;
+  white-space: nowrap;
 }
 .Buttonbb {
-  padding-left: 2rem;
-  padding-right: 2.55rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  width: 95%;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 0.5rem;
   color: white;
   border-radius: 4.86806px;
   background-color: #fcc028;
   border: none;
 }
+
+.navlogoright {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
-  .navbody {
-    width: 100%;
+  .navlogoleft {
+    display: none;
   }
-  .navlogo {
-    padding-left: 2rem;
-    padding-top: 2.5rem;
+  .navlogoright {
+    padding-top: 1.25rem;
+    display: block;
+    width: 35%;
   }
-  .navbuttoncontainer {
-    padding-top: 2.25rem;
-    white-space: nowrap;
+  .navbarbalck {
+    width: 50%;
   }
-  .Buttonbb {
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: white;
-    border-radius: 4.86806px;
-    background-color: #fcc028;
-    border: none;
+  .burgermenu {
+    margin-right: auto;
+    padding-right: 0rem;
   }
+}
+
+@media screen and (max-width: 576px) {
 }

@@ -1,6 +1,6 @@
 .aboutbody {
-  padding: 5rem;
-  display: flex;
+  padding-top: 5.75rem;
+  display: flex
 }
 .aboutpart1 {
   width: 50%;
@@ -9,31 +9,32 @@
   width: 50%;
 }
 .aboutinto {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 19.4722px;
   line-height: 29px;
   color: #fcc028;
 }
 .abouttitle {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 501;
   font-size: 38.9444px;
   line-height: 58px;
   color: rgba(0, 0, 0, 0.81);
 }
 .aboutcontent {
-  font-family: "Poppins";
+  width: 93%;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 499;
   font-size: 17.525px;
   line-height: 26px;
   color: rgba(0, 0, 0, 0.5);
 }
 .aboutcontainer {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
 }
 .aboutexperiance {
@@ -42,47 +43,47 @@
 }
 .Experianehedding {
   padding-bottom: 0rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 15.5778px;
   line-height: 23px;
   color: #fcc028;
-  padding-left: 2rem;
+  padding-left: 0.75rem;
 }
 .Experiancecontent {
-  padding-left: 2rem;
+  padding-left: 0.75rem;
   padding-right: 0.25rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 401;
   font-size: 15.5778px;
   line-height: 23px;
   color: #000000;
 }
-.aboutprojects {
+.aboutprojectsinAboutme {
   padding-top: 2rem;
 }
-.aboutprojects {
-  padding-left: 5rem;
+.aboutprojectsinAboutme {
+  padding-left: 2rem;
   display: flex;
 }
 .projecthedding {
   padding-bottom: 0rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 15.5778px;
   line-height: 23px;
   color: #fcc028;
-  padding-left: 2rem;
+  padding-left: 0.75rem;
 }
 .projectcontent {
-  padding-left: 2rem;
+  padding-left: 0.75rem;
   padding-right: 0.25rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 401;
   font-size: 15.5778px;
   line-height: 23px;
   color: #000000;
@@ -92,33 +93,39 @@
   padding-top: 3rem;
 }
 .supporthedding {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 15.5778px;
   line-height: 23px;
   color: #fcc028;
-  padding-left: 2rem;
+  padding-left: 0.75rem;
 }
 .supportcontent {
-  padding-left: 2rem;
-  font-family: "Poppins";
+  padding-left: 0.75rem;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 401;
   font-size: 15.5778px;
   line-height: 23px;
   color: #000000;
 }
 .aboutbuttoncontainer {
+  width: 50%;
   padding-top: 3rem;
   display: flex;
 }
 .abouthireme {
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 29.2083px;
+  padding: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.55rem;
+  padding-left: 0.55rem;
   gap: 10px;
   background: #fcc028;
   border-radius: 4.86806px;
@@ -126,11 +133,12 @@
   border: none;
 }
 .aboutdownlaod {
-  padding-left: 1.5rem;
+  width: 100%;
+  padding-left: 0rem;
   border: none;
   background: none;
   padding-top: 0.5rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14.6042px;
@@ -140,23 +148,15 @@
 .aboutdownloadcvpic {
   padding-left: 1rem;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 576px) {
   .aboutbody {
-    padding: 0rem;
     width: 100%;
     display: flex;
-    flex-direction: column;
   }
-  .aboutpart1 {
-    padding-left: 4rem;
-    align-items: center;
-    width: 100%;
-  }
-  .aboputpart2 {
-    width: 100%;
+  .aboutmerow {
+    width: 100;
     display: flex;
-    padding: 0rem;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .aboutinto {
     width: 100%;
@@ -167,27 +167,42 @@
     text-align: center;
   }
   .aboutcontent {
+    padding: 1rem;
     width: 100%;
-    padding: 2rem;
     text-align: center;
   }
   .aboutcontainer {
-    padding-left: 2rem;
+    align-items: center;
     display: flex;
     flex-direction: column;
   }
+  .aboutexperiance {
+    padding-left: 1.8rem;
+  }
   .aboutsupport {
-    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-left: 6.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .aboutprojectsinAboutme {
+    display: flex;
+    padding: 0rem;
+    padding-top: 1.5rem;
+  }
+  .projectsimage {
+    padding: 0rem;
   }
   .aboutbuttoncontainer {
     width: 100%;
-    display: flex;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    gap: 1rem;
-    flex-direction: column;
+  }
+  .abouthireme {
+    width: 40%;
+    padding: 0.5rem 0rem 0.5rem 0;
   }
   .aboutdownlaod {
-    padding-bottom: 5rem;
+    width: 50%;
+    padding-left: 0rem;
   }
 }

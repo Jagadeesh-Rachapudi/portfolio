@@ -1,11 +1,14 @@
 .portbody {
-  padding: 5rem;
+  padding-top: 9rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 10rem;
 }
 .portintro {
   text-align: center;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 15.5778px;
   line-height: 23px;
   color: #fcc028;
@@ -13,48 +16,26 @@
 .porttitle {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 31.1556px;
   line-height: 47px;
   text-align: center;
+  padding-bottom: 5rem;
   color: rgba(0, 0, 0, 0.81);
 }
 .portviewall {
   text-decoration: none;
-  padding-top: 0rem;
+  padding-bottom: 1rem;
   padding-left: 63rem;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 14.6042px;
   line-height: 22px;
   color: #fcc028;
 }
-.portfloor1 {
-  display: flex;
-}
-.porta1 {
-  border-radius: 19.4722px;
-  width: 50%;
-}
-.portb1 {
-  border-radius: 19.4722px;
-  width: 50%;
-}
-.portfloor2 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  display: flex;
-}
-.porta2 {
-  border-radius: 19.4722px;
-  width: 50%;
-}
-.portb2 {
-  border-radius: 19.4722px;
-  width: 50%;
-}
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 576px) {
   .portbody {
     padding: 0rem;
     padding-top: 5rem;
@@ -76,52 +57,55 @@
     padding-left: 60%;
     padding-bottom: 1rem;
   }
+  .pcontainer {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: none;
+  }
   .portfloor1 {
-    padding-bottom: 0rem;
+    padding-top: 1rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    padding-bottom: 0rem;
     width: 100%;
     flex-direction: column;
-  }
-  .porta1 {
-    width: 100%;
-    display: block;
   }
   .porta1 > img {
-    padding: 1rem;
+    padding: 0rem;
+    margin: 0rem;
     width: 100%;
-    display: block;
-  }
-  .portb1 {
-    width: 100%;
-    display: block;
+    padding-left: 1.4rem;
+    padding-bottom: 1rem;
   }
   .portb1 > img {
-    padding: 1rem;
+    padding: 0rem;
+    margin: 0rem;
     width: 100%;
-    display: block;
+    padding-left: 1.4rem;
+    /* padding-bottom: 1rem; */
   }
   .portfloor2 {
-    padding-top: 0rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex-direction: column;
-    padding-bottom: 5rem;
-  }
-  .porta2 {
     width: 100%;
-    display: block;
+    flex-direction: column;
   }
   .porta2 > img {
-    padding: 1rem;
+    padding: 0rem;
+    margin: 0rem;
     width: 100%;
-    display: block;
-  }
-  .portb2 {
-    width: 100%;
-    display: block;
+    padding-left: 1.4rem;
+    padding-bottom: 1rem;
   }
   .portb2 > img {
-    padding: 1rem;
+    padding: 0rem;
+    margin: 0rem;
     width: 100%;
-    display: block;
+    padding-left: 1.4rem;
+    padding-bottom: 1rem;
   }
 }

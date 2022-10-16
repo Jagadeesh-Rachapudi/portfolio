@@ -1,11 +1,11 @@
 .our {
-  padding: 5rem;
+  padding-bottom: 8rem;
 }
 .ourinto {
   text-align: center;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 15.5778px;
   line-height: 23px;
   color: #fcc028;
@@ -13,35 +13,31 @@
 .ourtitle {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 501;
   font-size: 31.1556px;
   line-height: 47px;
   text-align: center;
   color: rgba(0, 0, 0, 0.81);
 }
-.stack {
-  padding-right: 10rem;
-  padding-top: 5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* padding: 0px; */
-  gap: 146.04px;
+.STACK {
+  padding-top: 7rem;
+  padding-left: 0rem;
 }
-@media screen and (max-width: 1000px){
-  .our{
-    padding-top: 20rem;
+.logo {
+  padding: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+  .our {
+    padding-top: 5rem;
   }
-  .stack {
-    padding-left: 50%;
-    padding-right: 10rem;
+  .STACK {
     padding-top: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 0px; */
-    gap: 146.04px;
+    gap: 5rem;
+    padding-bottom: 2rem;
   }
 }
