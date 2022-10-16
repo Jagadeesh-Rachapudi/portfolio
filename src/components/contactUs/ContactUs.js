@@ -66,7 +66,14 @@ function ContactUs() {
                   />
                 </Form.Group>
                 <div className="formbuttoncontainer">
-                  <button className="formbutton">Submit</button>
+                  <button
+                    className="formbutton"
+                    onClick={() => {
+                      console.log("Submit Clicked");
+                    }}
+                  >
+                    Submit
+                  </button>
                 </div>
               </Form>
             </div>
@@ -85,45 +92,45 @@ function ContactUs() {
           </Col>
           <Col className=" links1 col-lg-3 col-xs-12 text-align-center">
             <div className="uscol">
-              <a className="E1" href="#">
+              <a className="E1" href="#Explore">
                 EXPLORE
               </a>
-              <a className="E2" href="#">
+              <a className="E2" href="#Supports">
                 SUPPORTS
               </a>
-              <a className="E3" href="#">
+              <a className="E3" href="#About_Us">
                 ABOUT US
               </a>
-              <a className="E4" href="#">
+              <a className="E4" href="#Blog">
                 BLOG
               </a>
             </div>
           </Col>
           <Col className=" links1 col-lg-3  col-xs-12">
             <div className="uscol">
-              <a className="E5" href="#">
+              <a className="E5" href="#Legal">
                 LEGAL
               </a>
-              <a className="E6" href="#">
+              <a className="E6" href="#Terms_Of_Use">
                 TERMS OF USE
               </a>
-              <a className="E7" href="#">
+              <a className="E7" href="#Privacy_Policy">
                 PRIVACY POLICY
               </a>
             </div>
           </Col>
-          <Col className=" links1 col-lg-3  col-xs-12">
+          <Col className=" uslinksmacs1 col-lg-3  col-xs-12">
             <div className="uscol">
-              <a className="E8" href="#">
+              <a className="E8" href="#Socials">
                 SOCIALS
               </a>
-              <a className="E9" href="#">
+              <a className="E9" href="#Twitter">
                 TWITTER
               </a>
-              <a className="E10" href="#">
+              <a className="E10" href="#Linkedin">
                 LINKEDIN
               </a>
-              <a className="E11" href="#">
+              <a className="E11" href="#Instagram">
                 INSTAGRAM
               </a>
             </div>
@@ -133,7 +140,7 @@ function ContactUs() {
       <Container>
         <Row className="uslinksrow">
           <Col className=" col-sm-4">
-            <div className="uscol">
+            <div className="mobilelinks">
               <a className="E1" href="#">
                 EXPLORE
               </a>
@@ -149,7 +156,7 @@ function ContactUs() {
             </div>
           </Col>
           <Col className=" col-sm-4">
-            <div className="uscol">
+            <div className="mobilelinks">
               <a className="E5" href="#">
                 LEGAL
               </a>
@@ -162,7 +169,7 @@ function ContactUs() {
             </div>
           </Col>
           <Col className="col-sm-4">
-            <div className="uscol">
+            <div className="mobilelinks">
               <a className="E8" href="#">
                 SOCIALS
               </a>

@@ -6,14 +6,14 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 function Testimonial() {
   return (
-    <div className="testimonial" id='tesimonials'>
+    <div className="testimonial" id="tesimonials">
       <div className="testiintro">TESTIMONIALS</div>
       <div className="testihedding">What People Says</div>
       <TestimonialCard />
     </div>
   );
 }
-  
+
 function TestimonialCard() {
   return (
     <div className="testimonial-card">
@@ -35,8 +35,22 @@ function TestimonialCard() {
         <RiDoubleQuotesR className="right" />
       </div>
       <div className="ButtonsContainer">
-        <button className="leftB">🠔</button>
-        <button className="rightB">➝</button>
+        <button
+          className="leftB"
+          onClick={() => {
+            console.log("Left Button Clicked");
+          }}
+        >
+          🠔
+        </button>
+        <button
+          className="rightB"
+          onClick={() => {
+            console.log("Right Button Clicked");
+          }}
+        >
+          ➝
+        </button>
       </div>
     </div>
   );
