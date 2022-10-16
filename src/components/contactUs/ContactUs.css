@@ -275,6 +275,7 @@
   flex-grow: 0;
 }
 .E7 {
+  white-space: nowrap;
   padding: 0.25rem;
   padding-top: 1.45rem;
   font-family: "Poppins";
@@ -370,10 +371,16 @@
   order: 3;
   flex-grow: 0;
 }
-.uslinks {
+.mobilelinks {
   display: none;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 576px) {
+  .mobilelinks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
   .uscontactus {
     padding-top: 5rem;
     display: flex;
@@ -423,6 +430,7 @@
   .formbuttoncontainer {
     margin-left: 27%;
   }
+
   .Footer {
     display: flex;
     flex-direction: column;
@@ -441,16 +449,12 @@
   .logocontent {
     text-align: center;
   }
-  .uslinks {
-    display: block;
-  }
   .uscol {
+    display: none;
     padding-bottom: 2rem;
   }
-  .links1 {
-    display: none;
-  }
-  .uslinksrow{
+  .uslinksrow {
+    display: flex;
     display: flex;
     flex-direction: row;
   }
