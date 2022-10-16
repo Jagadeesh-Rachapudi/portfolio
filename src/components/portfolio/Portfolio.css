@@ -25,14 +25,29 @@
 }
 .portviewall {
   text-decoration: none;
-  padding-bottom: 1rem;
-  padding-left: 63rem;
+  padding-bottom:0rem;
+  float: right;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 501;
   font-size: 14.6042px;
   line-height: 22px;
   color: #fcc028;
+}
+.pcontainer{
+  padding-top: 2rem;
+}
+.porta1 > img {
+  width: 100%;
+}
+.porta2 > img {
+  width: 100%;
+}
+.portb1 > img {
+  width: 100%;
+}
+.portb2 > img {
+  width: 100%;
 }
 
 @media screen and (max-width: 576px) {

@@ -5,7 +5,7 @@
     rgba(236, 178, 46, 0.0754) 0%,
     rgba(255, 255, 255, 0.1144) 100%
   );
-}
+} 
 .uscontactus {
   padding-top: 10.5rem;
   padding-left: 5rem;
@@ -368,7 +368,7 @@
   color: rgba(0, 0, 0, 0.31);
   flex: none;
   order: 3;
-  flex-grow: 0;
+  flex-grow: 0
 }
 .uslinks {
   display: none;
@@ -440,6 +440,9 @@
   }
   .logocontent {
     text-align: center;
+  }
+  .uslinks{
+    display: block;
   }
   .uscol {
     padding-bottom: 2rem;

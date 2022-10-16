@@ -2,7 +2,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./CaseStudy.css";
-function CaseStudy() {
+function CaseStudy() {  
   return (
     <div className="bodyofcasestudy">
       <div className="csinto">CASE STUDY</div>

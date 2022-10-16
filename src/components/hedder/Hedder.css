@@ -1,6 +1,6 @@
 .outerdiv {
   padding-top: 2.75rem;
-  padding-left: 0rem
+  padding-left: 0rem;
 }
 .col1container {
   padding-top: 6.5rem;
@@ -16,6 +16,7 @@
   color: #fcc028;
 }
 .heddername {
+  width: 100%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -105,7 +106,8 @@
 }
 .heddercardname {
   padding-top: 0.5rem;
-  padding-left: 1.25rem;
+  width: 100%;
+  margin-left: 20%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -114,7 +116,7 @@
 }
 .heddercarddate {
   padding-top: 0rem;
-  padding-left: 1.25rem;
+  margin-left: 20%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -134,44 +136,57 @@
 }
 
 @media screen and (max-width: 576px) {
-  .hedderbody{
+  .hedderbody {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .outerdiv{
+  .outerdiv {
     padding-top: 0rem;
     width: 100%;
   }
-  .hedderinto{
+  .hedderinto {
     width: 100%;
     text-align: center;
   }
-  .heddername{
+  .heddername {
     width: 100%;
     text-align: center;
-    font-size: 48.8037px;
+    font-size: 45.8037px;
     padding: 0rem 0.25rem 0rem 0.25rem;
   }
-  .hedderproffession{
+  .hedderproffession {
     width: 100%;
     text-align: center;
   }
-  .hedderdes{
+  .hedderdes {
     width: 100%;
     text-align: center;
   }
-  .hedderbuttoncontainer{
+  .hedderbuttoncontainer {
     width: 100%;
   }
-  .hedderdownloadbuttonpic{
+  .hedderdownloadbuttonpic {
     padding-left: 0.5rem;
   }
-  .heddercard{
+  .heddercard {
     width: 100%;
     padding: 0rem 1rem 0rem 1rem;
   }
-  .hedderrow{
+  .heddercardimage {
+    margin-top: 3%;
+  }
+  .heddercardname {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  .heddercarddate {
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 40%;
+  }
+  .hedderrow {
     display: flex;
     flex-direction: column;
   }

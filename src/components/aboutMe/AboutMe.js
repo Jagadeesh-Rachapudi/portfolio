@@ -9,10 +9,10 @@ function AboutMe() {
     <div className="aboutbody" id="aboutme">
       <Container>
         <Row className="aboutmerow">
-          <Col className="text-center col-md-6 col-xs-12">
+          <Col className="text-center col-lg-6 col-md-12">
             <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2Ftotalpic.png?alt=media&token=296cb92e-a660-4fca-aab1-328b2cc386a0"></img>
-          </Col>
-          <Col className="text-left col-lg-6  col-xs-12 mt-auto mb-auto">
+          </Col>      
+          <Col className="text-left col-lg-6 col-md-12 mt-auto mb-auto">
             <div className="aboutinto">A BIT</div>
             <div className="abouttitle">About Me</div>
             <div className="aboutcontent">

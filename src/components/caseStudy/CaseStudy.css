@@ -32,7 +32,7 @@
 }
 
 .cscontent1num {
-  padding-top: 5rem;
+  margin-top: 15%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 501;
@@ -80,7 +80,7 @@
 }
 
 .cscontent2num {
-  padding-top: 6rem;
+  margin-top: 15%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 501;
@@ -110,7 +110,7 @@
 }
 
 .cscontent3num {
-  padding-top: 6rem;
+  margin-top: 15%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 501;
@@ -137,6 +137,10 @@
   font-size: 17.525px;
   line-height: 26px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.pic1 {
+  width: 100%;
 }
 
 @media screen and (max-width: 576px) {
