@@ -5,7 +5,7 @@
     rgba(236, 178, 46, 0.0754) 0%,
     rgba(255, 255, 255, 0.1144) 100%
   );
-} 
+}
 .uscontactus {
   padding-top: 10.5rem;
   padding-left: 5rem;
@@ -368,7 +368,7 @@
   color: rgba(0, 0, 0, 0.31);
   flex: none;
   order: 3;
-  flex-grow: 0
+  flex-grow: 0;
 }
 .uslinks {
   display: none;
@@ -421,7 +421,7 @@
     width: 100%;
   }
   .formbuttoncontainer {
-    padding-left: 27%;
+    margin-left: 27%;
   }
   .Footer {
     display: flex;
@@ -434,14 +434,14 @@
     flex-direction: row;
   }
   .uslogo {
-    width: 25%;
-    height: 25%;
-    padding-top: 1.5rem;
+    width: 14%;
+    height: 8%;
+    padding-top: 0.7rem;
   }
   .logocontent {
     text-align: center;
   }
-  .uslinks{
+  .uslinks {
     display: block;
   }
   .uscol {
@@ -449,5 +449,9 @@
   }
   .links1 {
     display: none;
+  }
+  .uslinksrow{
+    display: flex;
+    flex-direction: row;
   }
 }

@@ -6,20 +6,20 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 function Testimonial() {
   return (
-    <div className="testimonial">
-      <h6>Testimonials</h6>
-      <h2>What People Says</h2>
+    <div className="testimonial" id='tesimonials'>
+      <div className="testiintro">TESTIMONIALS</div>
+      <div className="testihedding">What People Says</div>
       <TestimonialCard />
     </div>
   );
 }
-
+  
 function TestimonialCard() {
   return (
     <div className="testimonial-card">
       <img
         className="avaatar"
-        src="https://i.pinimg.com/474x/1f/53/45/1f5345c69adb4511f213ea826024ed67.jpg"
+        src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FEllipse%202.png?alt=media&token=8b76ec18-e2be-4a57-bd62-6e35c56df6ab"
       />
       <div className="content">
         <RiDoubleQuotesL className="left" />
@@ -33,6 +33,10 @@ function TestimonialCard() {
           <p className="designation">FOUNDER AND CEO OF KARMANI</p>
         </div>
         <RiDoubleQuotesR className="right" />
+      </div>
+      <div className="ButtonsContainer">
+        <button className="leftB">🠔</button>
+        <button className="rightB">➝</button>
       </div>
     </div>
   );

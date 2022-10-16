@@ -143,7 +143,11 @@
   width: 100%;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 980px) {
   .bodyofcasestudy {
     padding-bottom: 2rem;
     width: 100%;
