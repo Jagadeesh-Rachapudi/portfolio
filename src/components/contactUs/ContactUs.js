@@ -129,8 +129,8 @@ function ContactUs() {
             </div>
           </Col>
         </Row>
-        <Row className="uslinks">
-          <Col className="col-sm-2">
+        <Row>
+          <Col className=" uslinks col-sm-2">
             <div className="uscol">
               <a className="E1" href="#">
                 EXPLORE
@@ -146,7 +146,7 @@ function ContactUs() {
               </a>
             </div>
           </Col>
-          <Col className="col-sm-2">
+          <Col className=" uslinks col-sm-2">
             <div className="uscol">
               <a className="E5" href="#">
                 LEGAL
@@ -159,7 +159,7 @@ function ContactUs() {
               </a>
             </div>
           </Col>
-          <Col className="col-sm-2">
+          <Col className=" uslinks col-sm-2">
             <div className="uscol">
               <a className="E8" href="#">
                 SOCIALS

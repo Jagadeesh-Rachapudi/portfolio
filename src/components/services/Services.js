@@ -12,8 +12,8 @@ function Services() {
       <div className="sgetall">Explore All Services</div>
       <div className="smainbody">
         <Container>
-          <Row className=" justify-content-md-center">
-            <Col >
+          <Row className=" threepics d-flex justify-content-md-center">
+            <Col className="spic1 col-lg-4 col-md-12">
               <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%208.png?alt=media&token=1532a290-b44a-45d4-87eb-b5e471a0c5a7" />
               <div className="shedding">Landing page design</div>
               <div className="scontent">
@@ -22,7 +22,7 @@ function Services() {
                 since the 1500s
               </div>
             </Col>
-            <Col>
+            <Col className="spic2 col-lg-4 col-md-12">
               <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%209.png?alt=media&token=1b380bb2-7db4-4401-929d-0328c9b5f071" />
               <div className="shedding">Mobile App Design</div>
               <div className="scontent">
@@ -31,7 +31,7 @@ function Services() {
                 since the 1500s
               </div>
             </Col>
-            <Col>
+            <Col className="spic3 col-lg-4 col-md-12">
               <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FFrame%2010.png?alt=media&token=87142e29-96d0-4c00-8969-f8bd1fbc9388" />
               <div className="shedding">Branding</div>
               <div className="scontent">

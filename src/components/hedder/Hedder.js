@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Hedder.css";
-function Hedder() {
+function Hedder() {    
   return (
     <div className="hedderbody">
       <Container className="outerdiv">
