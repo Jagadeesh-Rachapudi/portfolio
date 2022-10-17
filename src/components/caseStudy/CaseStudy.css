@@ -145,7 +145,7 @@
 
 @media screen and (max-width: 980px) {
   .bodyofcasestudy {
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     width: 100%;
   }
   .csinto {
@@ -163,6 +163,8 @@
     flex-direction: column-reverse;
   }
   .cscontent1num {
+    margin: 0rem;
+    padding-top: 2rem;
     width: 100%;
     text-align: center;
   }
@@ -179,7 +181,8 @@
   .csbuttoncontainer {
     display: flex;
     margin-left: 30%;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
   }
   .pic1 {
     padding-top: 0.5rem;
@@ -193,6 +196,8 @@
   }
   .cscontent2num {
     text-align: center;
+    padding-top: 2rem;
+    margin: 0rem;
     width: 100%;
   }
   .cscontent2hedding {
@@ -211,6 +216,8 @@
   }
   .cscontent3num {
     width: 100%;
+    margin: 0rem;
+    padding-top: 2rem;
     text-align: center;
   }
   .cscontent3hedding {

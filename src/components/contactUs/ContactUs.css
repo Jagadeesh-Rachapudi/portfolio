@@ -421,23 +421,36 @@
     padding-top: 2rem;
     padding-bottom: 0rem;
     padding-left: 0rem;
+    align-items: center;
   }
   #formname {
-    padding: 0.87rem;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    width: 70%;
+    font-size: 12.4722px;
   }
   #formmail {
-    padding: 0.87rem;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    width: 70%;
+    font-size: 12.4722px;
   }
   #formweb {
-    padding: 0.87rem;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    width: 70%;
+    font-size: 12.4722px;
   }
   #formmsg {
-    padding: 1.5rem 0rem 7rem 2.25rem;
-    padding-left: 0.87rem;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1.75rem 2rem 1.75rem;
+    padding-left: 0.57rem;
+    width: 70%;
+    font-size: 12.4722px;
   }
   .formbuttoncontainer {
     margin-left: 27%;
@@ -457,6 +470,10 @@
     width: 14%;
     height: 8%;
     padding-top: 0.7rem;
+  }
+  .uslogodes {
+    font-size: 14px;
+    font-weight: 400;
   }
   .logocontent {
     text-align: center;

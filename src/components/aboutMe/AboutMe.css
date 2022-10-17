@@ -150,7 +150,7 @@
 }
 @media screen and (max-width: 576px) {
   .aboutbody {
-    padding-top: 2rem;
+    padding-top: 3rem;
     width: 100%;
     display: flex;
   }

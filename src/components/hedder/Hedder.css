@@ -58,7 +58,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   color: white;
-  border: none;
+  border: none;   
   background: #fcc028;
   border-radius: 4.86806px;
 }
@@ -136,6 +136,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .col1container{
+    padding-top: 3rem;
+  }
   .hedderbody {
     display: flex;
     flex-direction: column;
@@ -178,8 +181,14 @@
   }
   .heddercardname {
     width: 100%;
+    font-weight: 400;
+    font-size: 13px;
     margin-top: 10%;
     margin-left: 40%;
+  }
+  .heddercardpart2{
+    font-weight: 400;
+    font-size: 13px;
   }
   .heddercarddate {
     width: 100%;
