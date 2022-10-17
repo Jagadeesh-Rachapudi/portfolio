@@ -382,7 +382,7 @@
     padding-bottom: 2rem;
   }
   .uscontactus {
-    padding-top: 5rem;
+    padding-top: 2rem;
     display: flex;
     width: 100%;
     text-align: center;
@@ -392,6 +392,11 @@
     padding-left: 0rem;
     text-align: center;
     padding-bottom: 2rem;
+  }
+  .usmailc {
+    padding-top: 0rem;
+    display: flex;
+    flex-direction: row;
   }
   .mailid {
     font-size: 19.9178px;
@@ -413,6 +418,8 @@
     padding-right: 1rem;
   }
   .formcontainer {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
     padding-left: 0rem;
   }
   #formname {

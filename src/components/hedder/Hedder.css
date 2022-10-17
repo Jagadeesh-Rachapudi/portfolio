@@ -3,7 +3,7 @@
   padding-left: 0rem;
 }
 .col1container {
-  padding-top: 6.5rem;
+  padding-top: 2rem;
 }   
 
 .hedderinto {
@@ -193,5 +193,6 @@
   .fristpic > img {
     padding: 1rem;
     width: 100%;
+    padding-bottom: 0rem;
   }
 }
