@@ -150,6 +150,7 @@
 }
 @media screen and (max-width: 576px) {
   .aboutbody {
+    padding-top: 2rem;
     width: 100%;
     display: flex;
   }
@@ -196,10 +197,11 @@
     padding: 0rem;
   }
   .aboutbuttoncontainer {
+
     width: 100%;
   }
   .abouthireme {
-    width: 40%;
+    width: 50%;
     padding: 0.5rem 0rem 0.5rem 0;
   }
   .aboutdownlaod {
