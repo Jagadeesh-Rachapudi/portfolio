@@ -41,7 +41,7 @@ function TestimonialCard() {
             console.log("Left Button Clicked");
           }}
         >
-          🠔
+          ←
         </button>
         <button
           className="rightB"
@@ -49,7 +49,7 @@ function TestimonialCard() {
             console.log("Right Button Clicked");
           }}
         >
-          ➝
+          →
         </button>
       </div>
     </div>
